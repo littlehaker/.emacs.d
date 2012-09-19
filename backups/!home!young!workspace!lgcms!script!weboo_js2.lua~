@@ -1,0 +1,24 @@
+local files = {
+    "media/js/jquery-1.7.2.min.js",
+    "media/js/jquery-ui-1.8.18.custom.min.js",
+    "media/js/moment.min.js",
+    "media/js/jquery.wijmo-open.all.2.0.8.min.js",
+    "media/js/jquery.layout.js",
+    "media/js/string.js",
+    "media/js/fileuploader.js",
+    "media/js/jquery.contextMenu.js",
+    "media/js/jquery.notify.min.js",
+    "media/js/ui.rating.js",
+    "media/js/jquery.raty.min.js",
+    "media/js/template.min.js",
+    "media/js/weboo.js"
+}
+
+print(os.date('%c'))
+print('removing all.js')
+os.execute('rm media/js/weboo.all.js')
+
+for _, file in ipairs(files) do
+    print(file)
+    os.execute('uglifyjs ' .. file .. ' >> media/js/weboo.all.js')
+end

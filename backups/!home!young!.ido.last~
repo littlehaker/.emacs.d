@@ -1,0 +1,142 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/" . "lua-mode/")
+ ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/" . "snippets/")
+ ("/" . "home/")
+ ("/home/" . "young/")
+ ("/home/young/download/mmseg-3.2.14/src/" . "css/")
+ ("/home/young/download/mmseg-3.2.14/" . "python/")
+ ("/home/young/download/" . "mmseg-3.2.14/")
+ ("/home/young/workspace/lgcms/admin/" . "forum/")
+ ("/home/young/workspace/lgcms/media/" . "js/")
+ ("/home/young/workspace/lgcms/views/" . "parts/")
+ ("/home/young/GIT/" . "bamboo-redis/")
+ ("/home/young/" . "desktop/")
+ ("/home/young/workspace/lgcms/" . "app/")
+ ("/home/young/workspace/" . "lgcms/")
+ ("/home/young/.emacs.d/elpa/" . "yasnippet-20120822.52/")
+ ("/home/young/.emacs.d/" . "elpa/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/young/desktop/"
+ "/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/lua-mode/"
+ "/home/young/"
+ "desktop/"
+ "/home/young/workspace/lgcms/app/"
+ "/home/young/.emacs.d/"
+ "/home/young/workspace/lgcms/mixin/"
+ "/home/young/workspace/lgcms/models/"
+ "/home/young/workspace/lgcms/media/js/"
+ "/home/young/workspace/lgcms/script/"
+ "/home/young/workspace/lgcms/views/oo/"
+ "/home/young/download/mmseg-3.2.14/src/css/"
+ "/home/young/download/mmseg-3.2.14/python/"
+ "/home/young/download/mmseg-3.2.14/lua/"
+ "/home/young/download/mmseg-3.2.14/ruby/"
+ "/home/young/download/mmseg-3.2.14/src/"
+ "/home/young/workspace/lgcms/"
+ "/home/young/workspace/lgcms/views/"
+ "/home/young/workspace/lgcms/media/"
+ "/home/young/workspace/lgcms/views/parts/"
+ "/home/young/workspace/lgcms/admin/forum/"
+ "/home/young/workspace/lgcms/docs/"
+ "/home/young/GIT/bamboo-redis/"
+ "/home/young/workspace/monserver/"
+ "/home/young/.emacs.d/elpa/starter-kit-2.0.3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.lua"
+ "local handler.yasnippet"
+ "func"
+ ".emacs"
+ "test.c"
+ "test.org"
+ "c.org"
+ "oo.lua"
+ "forum.lua"
+ "handler_entry.lua"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/young/desktop/" (20569 31243) "简历表.doc" "test.html" "../" "c.lua" "mmseg_new.cpp" "#test.html#" "#test.lua#" "c.org" "4e17996b75cc92d35f92cf183f9dea8163e886" "./" "#test.org#" "xstbanner2.jpg" "oo_new.lua" "#test.c#" "test.lua" "下载.png" "mmseg.cpp" "mmseg_test.lua")
+
+ ("/home/young/" (20569 31243) ".profile" ".recentf" ".bash_logout" ".vimperator/" ".macromedia/" "%APPDATA%/" ".Private/" ".compiz-1/" ".themes/" ".cache/" ".dbus/" ".goutputstream-4UW3KW" ".ido.last" ".goutputstream-JXI3JW" ".goutputstream-K86JKW" ".gconf/" "young/" ".emacs" ".gegl-0.0/" ".xsession-errors.old" ".emacs.d/" ".gnupg/" ".goutputstream-OCKOKW" ".goutputstream-HKVLKW" "文档/" ".gnome2/" ".goutputstream-SWL8JW" ".Xauthority" "视频/" ".xsession-errors" ".viminfo" ".adobe/" ".goutputstream-HWRIKW" ".qq2012/" ".fonts/" ".goutputstream-6A2FKW" ".ecryptfs/" ".ICEauthority" ".goutputstream-HO0YKW" "模板/" ".fonts.conf" ".thumbnails/" ".gstreamer-0.10/" ".gvfs/" "图片/" ".lesshst" ".gimp-2.6/" ".goutputstream-UDIMKW" ".mozilla/" ".bashrc" "#.emacs#" ".goutputstream-E301JW" ".bash_history" "Ubuntu One/" ".pulse-cookie" "workspace/" "download/" ".mplayer/" ".shotwell/" ".fontconfig/" ".ssh/" ".xinput.d/" "GIT/" ".goutputstream-ZBX1JW" ".pki/" "音乐/" ".VirtualBox/" ".gtk-bookmarks" ".gnome2_private/" "examples.desktop" "desktop/" ".gitconfig" ".thunderbird/" ".bambooconfig" ".apport-ignore.xml" ".local/" ".pulse/" "公共的/" ".kde/" ".rediscli_history" ".config/" ".mission-control/" "VirtualBox VMs/" "../" "./")
+
+ ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/lua-mode/" (20569 31064) "../" "while.yasnippet" "for i.yasnippet" "./" "local function.yasnippet" "repeat.yasnippet" "for ipairs.yasnippet" ".yas-parents" "fun.yasnippet" "if.yasnippet" "for pairs.yasnippet" "function.yasnippet")
+
+ ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/" (20569 30393) "../" "html-mode/" "cperl-mode/" "rst-mode/" "c-mode/" "erlang-mode/" "ruby-mode/" "f90-mode/" "snippet-mode/" "scala-mode/" "sql-mode/" "./" "markdown-mode/" "lua-mode/" "cc-mode/" "csharp-mode/" "python-mode/" "latex-mode/" "c++-mode/" "text-mode/" "perl-mode/" "objc-mode/" "emacs-lisp-mode/" "nxml-mode/" "css-mode/")
+
+ ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/" (20569 30108) "../" "yasnippet-tests.elc" "dropdown-list.el" "yasnippet.el" "./" "dropdown-list.elc" "yasnippet-pkg.el" "yasnippet-debug.elc" "yasnippet-debug.el" "yasnippet-tests.el" "snippets/" "yasnippet.elc" "yasnippet-pkg.elc" "yasnippet-autoloads.el")
+
+ ("/home/young/.emacs.d/elpa/" (20569 30196) "../" "starter-kit-2.0.3/" "project-1.0/" "undo-tree-readme.txt" "ido-ubiquitous-1.2/" "lua-mode-20110428/" "find-file-in-project-3.2/" "popup-0.5/" "zen-and-art-theme-1.0.1/" "pastels-on-dark-theme-0.3/" "./" "yasnippet-20120822.52/" "color-theme-solarized-20120301/" "magit-1.1.1/" "color-theme-6.5.5/" "undo-tree-0.5.3/" "paredit-22/" "archives/" "zencoding-mode-0.5.1/" "ace-jump-mode-1.0/" "autopair-0.3/" "auto-complete-20120917.1341/" "whole-line-or-region-1.3.1/" "highlight-symbol-1.1/" "smex-1.1.3/" "less-css-mode-0.6/" "starter-kit-bindings-2.0.2/" "web-0.1.2/" "idle-highlight-mode-1.1.2/")
+
+ ("/home/young/.emacs.d/" (20569 30833) "../" "ac-comphist.dat" "elpa/" "tramp" "places" "auto-save-list/" "url/" "nxhtml/" "./" "session.108de19a528b6c10d5134629835885416800000019020042" "session.10a4788c01b248b321134732627974562400000021050038" "session.1092f67c92a755ac14134771335943445000000020720038" "auto-complete-yasnippet.el" ".smex-items" "backups/" "lua-mode (复件).el" "eshell/" "themes/" "session.10b55aa1946bc7025013468938635007900000017470038")
+
+ ("desktop/" (20569 28874) "简历表.doc" "test.html" "../" "c.lua" "mmseg_new.cpp" "#test.html#" "c.org" "4e17996b75cc92d35f92cf183f9dea8163e886" "./" "xstbanner2.jpg" "oo_new.lua" "下载.png" "mmseg.cpp" "mmseg_test.lua")
+
+ ("/home/young/workspace/lgcms/app/" (20569 28451) "../" "yltx.lua" "area_table.lua" "tool/" "hot.lua" "news.lua" "handler_entry.lua" "video.lua" "upload.lua" "microblog_.lua" "wprint.lua" "user.lua" "service.lua" "./" "oo_backup_20120830.lua" "chatroom.lua" "manage.lua" "forum.lua" "survey.lua" "tips.lua" "share.lua" "sensitive.lua" "gateway.lua" "microblog.lua" "oo.lua" "chatroom_filter.lua" "microblog_new.lua" "widget.lua" "sns.lua" "oo_backup.lua")
+
+ ("/home/young/workspace/lgcms/models/" (20569 13451) "../" "comment.lua" "province.lua" "msgtime.lua" "rating.lua" "image_old.lua" "explanation.lua" "msg.lua" ".gitignore" "video.lua" "group.lua" "message.lua" "upload.lua" "image.lua" "banner.lua" "usergroup.lua" "./" "faq.lua" "chatroom.lua" "photobook.lua" "photograph.lua" "microblog_old.lua" "emotsgroup.lua" "emot.lua" "tips.lua" "lguser.lua" "user_report.lua" "category.lua" "album.lua" "microblog.lua" "link.lua" "mbuser.lua" "member.lua" "comment_old.lua" "callbacks/" "city.lua" "microblog_new.lua" "article.lua" "forum_section.lua" "forum_article.lua" "blog_article.lua")
+
+ ("/home/young/workspace/lgcms/script/" (20569 13376) "../" "refreshonlines.lua" "fulltextindex.lua" "uni.lua" "addMember.lua" "task.lua" "weboo_js2.lua" "addSensitive.lua" "addExplanation.lua" "./" "recalc_action_time.lua" "clearOnline.lua" "emot.lua" "addKeyword.lua" "addFaq.lua" "addAlbum.lua" "clearEmot.lua" "weboo_js.lua" "unformat.lua")
+
+ ("/home/young/workspace/lgcms/media/js/" (20566 58431) "oo.min.js" "date.js" "albumimagesview.js" "jquery.animate-colors-min.js" "main.js" "dwz.regional.zh.js" "warnAndNote.js" "weibo_2.js" "dwz.min.js" "xst.js" "dropdown.js" "weboo.js" "jquery-1.5.min.js" "jquery.validate.js" "jquery-ui-1.8.18.full.min.js" "sns.js" "jquery.lightbox-0.5.js" "jlayout.border.js" "jquery.jqplot.min.js" "all.js" "jquery.lightbox-0.5.pack.js" "fileuploader.js" "microblog.js" "moment.cn.js" "usercenter-common.js" "jquery.rotate.1-1.js" ".gitignore" "template.min.js" "jquery-ui-1.8.17.custom.min.js" "userset.js" "jquery.masonry.js" "jquery-1.7.1.min.js" "usercenter-article.js" "ui.rating.js" "jquery-1.7.1_old.min.js" "weboo.dependency.js" "sns_header.js" "face.js" "jquery.Jcrop.min.js" "jquery.notify.min.js" "jquery.jlayout.js" "jquery.lightbox-0.5.min.js" "usercenter.js" "xheditor_new/" "package.json" "flowplayer-3.2.7.swf" "jquery.tools.min.js" "article.js" "facedata.js" "jquery-ui-1.8.18.custom.min.js" "moment.min.js" "usercenter-albums.js" "jquery.sizes.js" "weibo.js" "weboo.all.js" "jquery-1.7.2.js" "ueditor/" "jquery.raty.min.js" ".npmignore" "jquery.js" "xheditor/" "onealbum.js" "jquery.validate.cn.js" "jquery.overlay.min.js" "lgeditor.js" "iColorPicker.js" "jquery.layout-latest.js" "jquery.contextMenu.js" "service.js" "oo.js" "jquery.layout.js" "plugins/" "color-picker.js" "flowplayer-3.2.6.min.js" "fileuploadernew.js" "jquery.wijmo-complete.all.2.0.8.min.js" "weboo.min.js" "onemb.js" "weboo_backup.js" "overlay-imageupload.js" "jquery.validate.min.js" "jquery-resize.js" "jquery.wijmo-open.all.2.0.8.min.js" "string.js" "newarticle.js" "ajaxupload.js" "flowplayer.controls-3.2.5.swf" "usercenter-message.js" "custom.js" "jquery.rating.min.js" "jquery.min.js" "jquery.metadata.js" "dwz.min_error.js" "jquery-1.7.2.min.js" "sns_home.js" "../" "./")
+
+ ("/home/young/workspace/lgcms/mixin/" (20566 58304) "../" "rating.lua" "view_time.lua" "viewed_times.lua" "verify.lua" "view_times.lua" "./" "online_time.lua" "relatives.lua" "microblog.lua" "order.lua" "action_time.lua" "email_auth.lua" "logo.lua" "online_time_new.lua")
+
+ ("/home/young/workspace/lgcms/views/oo/" (20568 13961) "trans_list.html" "../" "chat_window_backup.html" "settings.html" "custom.html" "contact.html" "history_item.html" "c.org" "relatives.html" ".#history.html" "./" "history.html" "c.html" "service.html" "room_list.html" "emot.html" "chat_window_old.html" "chat_window_js.html" "sidebar.html" "user_list.html" "index.html" "recent_list.html" "room_user_list_page.html" "chat_window.html")
+
+ ("/home/young/workspace/lgcms/views/" (20566 58304) "temple/" "test.html" "../" "sns/" "test_admin.html" "oo/" "chatroom/" "oo_test.html" "forum/" "error.html" "test4.html" "overlay/" "parts/" "oneweibo.html" "search.html" "user/" "index_cubic.html" "./" "test3.html" "weibo.html" "detail.html" "usercenter.html" "xst.html" "test2.html" "test5.html" "test_chat2.html" "test_chat.html" "indexbase.html" "survey_photograph.html" "loginstatus.html" "footer.html" "index.html" "sns.html" "header.html")
+
+ ("/home/young/download/mmseg-3.2.14/" (20568 10762) "../" "stamp-h.in" "config.status" "ChangeLog" "COPYING" "README.md" "INSTALL" "config/" "configure" ".git/" "Makefile.in" "Makefile.am" "config.h" "Makefile" "aclocal.m4" "./" "test" "script/" "README" "ruby/" "AUTHORS" "THANKS" "data/" "bootstrap" "config-h.in~" "mmseg.tar.gz" ".hg/" "configure.in" "config-h.in" "autom4te.cache/" "config.log" "test.txt" "lua/" ".hgignore" "stamp-h1" "NEWS" "src/" "python/" "libtool")
+
+ ("/home/young/download/mmseg-3.2.14/lua/" (20568 6935) "mmthunk.o" "os.h" "scoped_ptr.h" "UnigramRecord.o" "UnigramRecord.h" "assert.lo" "csr_utils.o" "ThesaurusDict.lo" "mmseg.so" "bsd_getopt.h" "Segmenter.h" "bsd_getopt.o" "freelist.h" "mk_dist.bat" "t1.txt" ".git/" "Makefile.in" "mmseg_main.cpp" "SynonymsDict.o" "tolowercase.h" "csr_mmap.o" "StringTokenizer.h" "iniparser.o" "Makefile.am" "csr_assert.h" "dictionary.o" "SegmenterManager.o" "UnigramCorpusReader.o" "SegmenterManager.h" "SynonymsDict.h" "UnigramDict.o" "SegmenterManager.lo" "libmmseg.la" "Makefile" "tmp.c" "Singleton.h" "csr_typedefs.h" "csr_mmap.h" "UnigramCorpusReader.lo" "config.win.h" "csr_mmap.lo" "tmp.cpp" "assert.o" "UnigramRecord.lo" "ICorpusReader.h" "csr_utils.h" "bsd_getopt.lo" "dictionary.lo" "a.so" "iniparser.lo" "ThesaurusDict.h" "iniparser.h" "Utf8_16.o" "StringTokenizer.o" "darts.h" "csr_utils.lo" "table2.lua" "dictionary.h" "Utf8_16.h" "csr_pool.h" "UnigramDict.lo" "Utf8_16.lo" "SegmentPkg.o" "csr.h" "SegmentPkg.lo" "test.lua" "StringTokenizer.lo" "SegmentPkg.h" "bsd_getopt_win.h" "SynonymsDict.lo" "mmthunk.h" "segmenter.lo" "segmenter.o" "mmseg.cpp" "UnigramDict.h" "make.sh" "ThesaurusDict.o" "UnigramCorpusReader.h" "mmthunk.lo" "../" "./")
+
+ ("/home/young/workspace/lgcms/" (20567 52502) "luajit_test.lua" "restart.sh" "sns.txt" "oauth2.lua" "back_ssh.sh" "fulltextindex.lua" "docs/" "ssh.sh" ".git/" "LGCMS Document.doc" ".gitignore" "sns_flymake.html" "post.tar.gz" "views/" "app/" "avatar/" "演示点.md" "关键词及术语解释.doc" "baobao.lua" "m.sh" "oo.org" "聊天窗口.png" "script/" "comp.sh" "dict/" "oauth2" "config.sqlite" "mongrel2.conf" "r.sh" "run.sh" "oo.txt" "admin/" "ctags.sh" "sns.org" "models/" "media/" "plugins/" "settings.lua" "prof.txt" "b.sh" "manifest" "testviews/" "uglifyjs.sh" "bug.jpg" "mmseg_64.so" "lib/" "css.sh" "sns.html" "initial/" "filter.lua" "mixin/" "cleanForeign.lua" "../" "./")
+
+ ("//" (20558 40601) "../" "mnt/" "media/" "vmlinuz.old" "opt/" "boot/" "lib/" "lib64/" "var/" "proc/" "srv/" "home/" "run/" "./" "usr/" "selinux/" "etc/" "dev/" "tmp/" "vmlinuz" "inotify.so" "Desktop/" "root/" "initrd.img.old" "bin/" "cdrom/" "initrd.img" "lost+found/" "sbin/" "sys/")
+
+ ("/home/young/download/mmseg-3.2.14/src/css/" (20557 30279) "../" "UnigramRecord.h" "ThesaurusDict.cpp" "segmenter.cpp" "Segmenter.h" "tolowercase.h" "UnigramCorpusReader.cpp" "SynonymsDict.cpp" "SegmenterManager.h" "SynonymsDict.h" "UnigramRecord.cpp" "SegmenterManager.cpp" "./" "SegmentPkg.cpp" "ICorpusReader.h" "ThesaurusDict.h" "mmthunk.cpp" "SegmentPkg.h" "mmthunk.h" "UnigramDict.cpp" "UnigramDict.h" "UnigramCorpusReader.h")
+
+ ("/home/young/download/mmseg-3.2.14/python/" (20557 30283) "../" "tmmseg.py" "mmseg_interface.cpp" "./" "pymmseg.c" "mmseg_interface.h" "pymmseg.sln" "pymmseg.vcproj")
+
+ ("/home/young/download/mmseg-3.2.14/ruby/" (20557 30261) "../" "os.h" "scoped_ptr.h" "UnigramRecord.h" "extconf.win.rb" "bsd_getopt.h" "Segmenter.h" "freelist.h" "tolowercase.h" "extconf.lin.rb" "StringTokenizer.h" "csr_assert.h" "SegmenterManager.h" "SynonymsDict.h" "rubyapi.cpp" "Makefile" "./" "Singleton.h" "csr_typedefs.h" "csr_mmap.h" "config.win.h" "mmseg-i386-mswin32.exp" "ICorpusReader.h" "csr_utils.h" "ThesaurusDict.h" "test.rb" "iniparser.h" "darts.h" "dictionary.h" "Utf8_16.h" "csr_pool.h" "csr.h" "readme.txt" "SegmentPkg.h" "bsd_getopt_win.h" "mmthunk.h" "mmseg-i386-mswin32.def" "UnigramDict.h" "UnigramCorpusReader.h")
+
+ ("/home/young/download/mmseg-3.2.14/src/" (20557 42299) "mmthunk.o" "mmseg_main.o" "UnigramRecord.o" "assert.lo" ".libs/" "csr_utils.o" "ThesaurusDict.lo" "bsd_getopt.o" "mk_dist.bat" "t1.txt" "Makefile.in" "mmseg_main.cpp" "SynonymsDict.o" "csr_mmap.o" "iniparser.o" "Makefile.am" "iniparser/" "dictionary.o" "SegmenterManager.o" "UnigramCorpusReader.o" "UnigramDict.o" ".deps/" "SegmenterManager.lo" "libmmseg.la" "Makefile" "utils/" "csr_typedefs.h" "UnigramCorpusReader.lo" "config.win.h" "csr_mmap.lo" "assert.o" "UnigramRecord.lo" "mmseg" "bsd_getopt.lo" "dictionary.lo" "css/" "iniparser.lo" "Utf8_16.o" "StringTokenizer.o" "csr_utils.lo" "UnigramDict.lo" "Utf8_16.lo" "SegmentPkg.o" "SegmentPkg.lo" "StringTokenizer.lo" "SynonymsDict.lo" "segmenter.lo" "segmenter.o" "win32/" "ThesaurusDict.o" "mmthunk.lo" "../" "./")
+
+ ("/home/young/download/" (20566 42073) "../" "Emacs23.3在ubuntu10.10下的手动编译与安装 - ini_always - 博客园.html" "bamboo_installer-v1.2.tar.gz" "js/" "emacs-24.2/" "Emacs23.3在ubuntu10.10下的手动编译与安装 - ini_always - 博客园_files/" "smooth-gestures-0.15.4 (1).crx" "WineQQ2012-20120531-Longene.deb" "emacs-24.2.tar.gz" "./" "usr/" "smooth-gestures-plugin-0.8.crx" "sources.list.precise" "mmseg-3.2.14/" "smooth-gestures-0.15.4.crx" "libflashplayer.so" "google-chrome-stable_current_amd64.deb" "lua/" "readme.txt" "theme/" "install_flash_player_11_linux.x86_64.tar.gz" "bamboo_installer/")
+
+ ("/home/young/GIT/" (20562 39131) "lgstring/" "../" "bamboo/" "./" "redis_dump_import_tools/" "lglib/" "bamboo_old/" "tnetstrings.lua/" "redis-lua/" "monserver/" "bamboo-redis/" "artTemplate/" "monserver-lua/" "luajson/")
+
+ ("/home/young/workspace/lgcms/dict/" (20566 58302) "../" "faq.txt" "createKeywords_new.lua" "createKeywords.lua" "sensitive" "uni.lua" "keywords.lua" "keywords_" "keywords_20120328" "keywords_20120726.lua" "keywords" "keywords_20120806.lua" "uni.sh" "./" "faq.lua" "mmseg/" "keywords_20120328.lua" "keywords_20120713.lua" "keywords_20120726.txt" "tmp")
+
+ ("/home/young/workspace/" (20566 58504) "../" "./" "_lgcms_/" "lgcms_settings.lua" "settings.lua" "monserver/" "lgcms/")
+
+ ("/home/young/workspace/lgcms/media/" (20566 58304) "../" "emots/" "162126w7al0dd0byxyyb9a.jpg" "js/" "flash/" "xst_new/" "images/" "wm.png" "audio/" "./" "favicon.ico" "data.tar.gz" "uploads/" "css/" "162250k2ky2favla44ykky.jpg" "admin/" "plugins/" "sys/" "新生堂新论坛聊聊屋副本.jpg" "162127p540zdmr6rzypbbo.jpg" "wm_small.png" "index.html" "xst.png" "QQkefu/" "162251skv33o2pp5w1spj8.jpg")
+
+ ("/home/young/workspace/lgcms/views/parts/" (20558 40579) "../" "note.html" "content_item.html" "sns/" "usercenter-editarticle.html" "content.html" "usercenter-message.html" "video.html" "tips.html" "menu.html" "usercenter-articles.html" "usercenter-onealbum.html" "comment2.html" "backtotop.html" "mb/" "usercenter-albums.html" "article.html" "comment.html" "message.html" "articles.html" "colorpicker.html" "usercenter-newarticle.html" "content_navi.html" "./" "videos.html" "usercenter-article.html" "dialog.html" "mbcmtdeldialog.html" "articlecomment.html" "hot.html" "footer.html" "msgdeldialog.html" "photographs.html" "video_item.html" "header.html")
+
+ ("/home/young/workspace/lgcms/admin/forum/" (20558 46888) "../" "commit_articles.html" "attanch.html" "sectionEdit.html" "editArticle.html" "reportComment.html" "members.html" "searchArticles.html" "dispArticle.html" "./" "hotwordsEdit.html" "forum.lua" "seneitiveWords.html" "listall.html" "editMember.html" "commit_comments.html" "sections.html" "reportMicroblog.html")
+
+ ("/home/young/workspace/lgcms/admin/" (20557 41250) "article/" "../" "forum/" "views/" "category/" "util/" "user/" "banner/" "./" "video/" "admin.lua" "lguser/" "arch/" "photograph/" "admin_unlogined.lua" "usergroup/")
+
+ ("/home/young/workspace/lgcms/docs/" (20557 45979) "超导可视无痛人流简介：.doc" "water_mark_130.png" "QQ上专业答疑11 (1).txt" "xxx.jpg" ".~lock.QQ上专业答疑11 (1).txt#" "修改意见.5.3.doc" "网关平台专用查询黑字典表12.17.xls" "网站问题.doc" "员工通讯录0.xls" "喔喔聊.psd" "头像669.jpg" "100XSTlOGO2.jpg" "网站修改意见2012.4.28.doc" "logo150*70.png" "胎儿超声心动图.doc" "20XSTlOGO.jpg" "member.txt" "list2.txt" "list3.txt" "关键词解释整理20120726.txt" "医疗服务.doc" "users" "logo_300140.xcf" "常见问题.doc" "i120.gif" "关于早教.doc" "修改意见2012.5.4.doc" "bg.jpeg" "logo150*70.xcf" "QQ上专业答疑11 (1).doc" "logo.jpg" "自动答疑/" "00网关平台专用查询黑字典表12.17.xls" "1-3标准组合.cdr" "什么是四维彩超.doc" "30XSTlOGO.jpg" "232323/" "喔喔聊副本.jpg" "关于无创基因检测：.doc" "特色服务内容.rar" "100PNGxstLogo.png" "关键词解释整理20120726.doc" "新生堂LOGO2.jpg" "water_mark.png" "网站导航修改.rtf" "logo_300140.png" "100XSTlOGO.jpg" "../" "./")
+
+ ("/home/young/GIT/bamboo-redis/" (20557 44981) "../" "README.md" ".git/" "ChangeLog.md" "./" "tests_from_redislua.lua" "tests.lua" "bamboo-redis.lua")
+
+ ("/home/young/workspace/monserver/" (20557 30373) "../" "sites/" "logs/" "./" "config.lua" "b.sh" "run/" "tmp/")
+
+ ("/home/young/.emacs.d/elpa/starter-kit-2.0.3/" (20557 30804) "../" "starter-kit.elc" "starter-kit-pkg.elc" "./" "starter-kit-misc.el" "starter-kit-pkg.el" "starter-kit-autoloads.el" "starter-kit-autoloads.el~" "starter-kit-defuns.elc" "starter-kit-misc.elc" "starter-kit.el" "starter-kit-defuns.el")
+
+ ("/home/" (20557 47283) "../" "./" ".ecryptfs/" "young/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,73 @@
+
+;; ----- smex-history -----
+(
+ yas-minor-mode
+ line-number-mode
+ package-list-packages
+ customize
+ eval-current-buffer
+ clipboard-yank
+ package-list-packages-no-fetch
+)
+
+;; ----- smex-data -----
+(
+ (ibuffer . 5)
+ (package-install . 1)
+ (package-list-packages . 8)
+ (package-list-packages-no-fetch . 25)
+ (eval-current-buffer . 35)
+ (enable-theme . 1)
+ (lua-mode . 1)
+ (color-theme-parus . 1)
+ (color-theme-xp . 1)
+ (package-initialize . 1)
+ (color-theme-solarized . 1)
+ (color-theme-solarized-dark . 2)
+ (global-linum-mode . 1)
+ (esk-insert-date . 1)
+ (grep . 15)
+ (autopair-mode . 4)
+ (imenu . 1)
+ (viper-mode . 1)
+ (describe-project . 1)
+ (undo-tree-mode . 5)
+ (eshell . 2)
+ (magit-status . 11)
+ (color-theme-solarized-light . 1)
+ (goto-line . 3)
+ (whole-line-or-region-mode . 1)
+ (highlight-symbol-mode . 3)
+ (highlight-symbol-at-point . 4)
+ (copyright . 1)
+ (whole-line-or-region-kill-ring-save . 1)
+ (javascript-mode . 5)
+ (html-mode . 8)
+ (clipboard-kill-ring-save . 2)
+ (highlight-symbol-next . 1)
+ (describe-key . 2)
+ (undo . 1)
+ (undo-tree-visualize . 5)
+ (zencoding-mode . 4)
+ (auto-complete-mode . 9)
+ (js2-mode . 2)
+ (customize . 5)
+ (paredit-mode . 1)
+ (ace-jump-mode . 6)
+ (dired . 2)
+ (diary . 1)
+ (replace-string . 1)
+ (org-export . 1)
+ (css-mode . 2)
+ (undo-tree-redo . 1)
+ (nxhtmlmaint-byte-recompile . 1)
+ (customize-group . 2)
+ (tidy-tree . 1)
+ (outline-mode . 1)
+ (c-mode . 1)
+ (c++-mode . 1)
+ (clipboard-yank . 1)
+ (yas/minor-mode . 2)
+ (yas-minor-mode . 5)
+ (line-number-mode . 2)
+)

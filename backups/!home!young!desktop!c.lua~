@@ -1,0 +1,4 @@
+local f = io.open('~/workspace/lgcms/docs/list3.txt', 'r+')
+for _, v in ipairs(f:read('*line')) do
+	print(v)
+end

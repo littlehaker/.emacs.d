@@ -1,0 +1,13 @@
+--添加会员姓名
+local f = assert(io.open('dict/sensitive', "r"))
+
+DEBUG(words)
+local sensitive_words = f:read("*all"):splittrim("\n")
+f:close()
+--ptable(sensitive_words)
+for _, word in ipairs(sensitive_words) do
+    if word ~= '' then
+        print(word)
+        Model:addCustomMember('sensitive_words', word, 'zset')
+    end
+end

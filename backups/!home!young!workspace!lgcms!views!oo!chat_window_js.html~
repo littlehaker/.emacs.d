@@ -1,0 +1,127 @@
+
+          <div class="ui-layout-east ui-widget-content ui-corner-all  sidebar" style="width:220px;"> 
+            <% if(type=='user'){ %>
+            <div class="sidebar_tabs" style="height:34px;width:100%;overfloat:hidden;">
+	      <ul>
+	        <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_tips" class="tab_tips">相关</a></li>
+	      </ul>
+	      <div id="tab_{{user_type}}_{{ (user or room).id }}_tips" class="tips">
+	        {( 'oo/relatives.html' )}
+	      </div>
+            </div>
+            <% elseif(type=='room'){ %>
+            <div class="sidebar_tabs">
+	      <ul>
+	        <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_list">成员</a></li>
+                {% if room.vip == 'true' then %}
+	        <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_contact">联系电话</a></li>
+                {% end %}
+	        <li><a href="#tab_{{user_type}}_{{ (user or room).id}}_tips" class="tab_tips">相关</a></li>
+	      </ul>
+	      <div id="tab_{{user_type}}_{{ (user or room).id }}_list" class="room_user_list"></div>
+              {% if room.vip == 'true' then %}
+              <div id="tab_{{user_type}}_{{ (user or room).id }}_contact" class="room_user_contact">
+                {( 'oo/contact.html' )}          
+              </div>
+              {% end %}
+
+	      <div id="tab_{{user_type}}_{{ (user or room).id }}_tips" class="tips">
+	        {( 'oo/relatives.html' )}
+	      </div>
+            </div>
+            <% else %>
+            <div class="sidebar_tabs">
+	      <ul>
+	        <li><a href="#tab_{{user_type}}_{{ (user or room or article).id }}_content">主题</a></li>
+	        <li><a href="#tab_{{user_type}}_{{ (user or room or article).id }}_list">成员</a></li>
+	      </ul>
+	      <div id="tab_{{user_type}}_{{ (user or room or article).id }}_content" class="content">
+	        <div class="content">
+		  {{article.content}}
+	        </div>
+	      </div>
+	      <div id="tab_{{user_type}}_{{ (user or room or article).id }}_list" class="article_user_list"></div>
+            </div>
+            <% } %
+          </div>
+
+          <div class="ui-layout-north ui-widget-content ui-corner-all"> 
+            <div class="ui-layout-content ui-widget-content">
+	      <div class="target_info clearfix">
+	        {% if user_type == 'user' then %}
+	        {% id = user.id %}
+	        {% screenname = user.nickname %}
+	        {% logo = user:getInfo().logo %}
+
+	        {% local t = user:getLastMicroblog() %}
+	        {% if t then %}
+	        {% signature = t.description %}
+	        {% end %}
+
+	        <a href="/usercenter/{{user.id}}" target="_iframe"><img src="/{{logo}}" /></a>
+
+	        {% elseif user_type == 'room' then  %}
+	        {% id = room.id %}
+	        {% screenname = room.name %}
+	        {% logo = room:getInfo().logo %}
+	        {% else %}
+	        {% id = article.id %}
+	        {% screenname = article.title %}
+	        {% logo = 'media/images/def_room_logo.jpg' %}
+	        {% end %}
+	        <input type="hidden" class="screenname" value="{{screenname}}" />
+	        <span class="t">{{signature}}</span>
+
+	      </div>
+            </div>
+          </div> 
+
+          <div class="ui-layout-center ui-widget-content ui-corner-all chat_box middle-center"> 
+            <div class="ui-layout-center ui-widget-content ui-corner-all messages">
+            </div>
+
+            <div class="ui-layout-south ui-widget-content ui-corner-all middle-south">
+	      <div class="ui-layout-north ui-widget-content ui-corner-all toolbar_wrapper">
+	        <!-- 工具条 -->
+	        <div id="fontStyle" class="toolbar clearfix" style="display:none;">
+	          <select id="fonts">
+	            <option value="宋体">宋体</option>
+	            <option value="黑体">黑体</option>
+	            <option value="隶书">隶书</option>
+	            <option value="微软雅黑">微软雅黑</option>
+	            <option value="楷体_GB2312">楷体_GB2312</option>
+	            <option value="幼圆">幼圆</option>
+	            <option value="Arial">Arial</option>
+	            <option value="Arial Black">Arial Black</option>
+	            <option value="Times New Roman">Times New Roman</option>
+	            <option value="Verdana">Verdana</option>
+	          </select>
+	          <select id="fontSize">
+	            {% for i = 10, 30, 2 do %}
+	            <option>{{i}}</option>
+	            {% end %}
+	          </select>
+	          <a id="fontColor" href="###" class="tool_btn" title="颜色"></a>
+                  <a id="bold" href="###" class="tool_btn" title="加粗"></a>
+                  <a id="italic" href="###" class="tool_btn" title="斜体"></a>
+                  <a id="underline" href="###" class="tool_btn" title="下划线"></a>
+	        </div>
+	        <div class="toolbar clearfix" id="main_toolbar">
+	          <a id="font" class="tool_btn" href="###" title="字体"></a><a id="emots" class="tool_btn" href="###" title="表情"></a>
+	          <a id="pic" class="tool_btn" href="###" title="发送图片"></a>
+	          <a id="file" class="tool_btn" href="###" title="发送文件"></a>
+	          <a id="clear" class="tool_btn" href="###" title="清屏"></a>
+
+	          <a id="his" class="text_btn" href="###" title="历史记录">历史记录</a>
+	        </div>
+	      </div>
+	      <div class="ui-layout-center ui-widget-content ui-corner-all">
+	        <div class="lgeditor" contenteditable="true" style="height:100%;overflow:auto">
+	        </div>
+	      </div>
+	      <div class="ui-layout-south ui-widget-content ui-corner-all btn_wrapper">
+	        <button class="send">发送</button>
+	        <button class="close">关闭</button>
+	      </div>
+            </div>
+          </div>

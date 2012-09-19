@@ -1,0 +1,43 @@
+{% if user then %}
+<div class="sidebar_tabs" style="height:34px;width:100%;overfloat:hidden;">
+  <ul>
+    <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_tips" class="tab_tips">相关</a></li>
+  </ul>
+  <div id="tab_{{user_type}}_{{ (user or room).id }}_tips" class="tips">
+    {( 'oo/relatives.html' )}
+  </div>
+</div>
+{% elseif room then %}
+<div class="sidebar_tabs">
+  <ul>
+    <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_list">成员</a></li>
+    {% if room.vip == 'true' then %}
+    <li><a href="#tab_{{user_type}}_{{ (user or room).id }}_contact">联系电话</a></li>
+    {% end %}
+    <li><a href="#tab_{{user_type}}_{{ (user or room).id}}_tips" class="tab_tips">相关</a></li>
+  </ul>
+  <div id="tab_{{user_type}}_{{ (user or room).id }}_list" class="room_user_list"></div>
+  {% if room.vip == 'true' then %}
+  <div id="tab_{{user_type}}_{{ (user or room).id }}_contact" class="room_user_contact">
+    {( 'oo/contact.html' )}          
+  </div>
+  {% end %}
+
+  <div id="tab_{{user_type}}_{{ (user or room).id }}_tips" class="tips">
+    {( 'oo/relatives.html' )}
+  </div>
+</div>
+{% else %}
+<div class="sidebar_tabs">
+  <ul>
+    <li><a href="#tab_{{user_type}}_{{ (user or room or article).id }}_content">主题</a></li>
+    <li><a href="#tab_{{user_type}}_{{ (user or room or article).id }}_list">成员</a></li>
+  </ul>
+  <div id="tab_{{user_type}}_{{ (user or room or article).id }}_content" class="content">
+    <div class="content">
+      {{article.content}}
+    </div>
+  </div>
+  <div id="tab_{{user_type}}_{{ (user or room or article).id }}_list" class="article_user_list"></div>
+</div>
+{% end %}

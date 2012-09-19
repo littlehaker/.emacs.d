@@ -1,0 +1,58 @@
+--PRODUCTION = true
+url = 'http://localhost'
+project_name = "lgcms"
+host = "lgcms"
+sender_id = 'c2405186-5c67-8b7e-e584-915901e5a02c'
+io_threads = 1
+views = "views/"
+config_file = 'config.lua'
+WHICH_DB = 2
+--rule_index_support = false
+debug_level = false
+prof =false 
+
+
+mmseg_dict_path = 'dict/mmseg'
+sensitive_dict_path = 'dict/sensitive'
+
+auto_reload_when_code_change = true
+
+auto_clear_index_when_get_failed = false
+
+--全文搜索
+fulltext_index_support = true
+search_threshold = 20 --搜索门限值
+
+--审核时间
+verify_time_start = 0
+verify_time_end =23 
+
+--假删
+use_fake_deletion = true
+
+--每页显示数目
+forum_npp = 10
+article_npp = 10
+
+--初始界面（0 = 正常， 1 = 只看帖， 2 = 只聊天)
+oo_style_status = 2
+
+
+--客服打分间隔
+rating_timeout = 21600
+
+
+farticle_credits = 3
+fapride_credits = 30
+fmessage_credits = 1
+basic_credits = 10
+
+--有效的时间，即该时间段内无动作记为不在线
+active_online_time = 600
+
+--session过期
+expiration = 86400
+-- active_online_time = 3600
+
+--群组人员上限
+max_room_member = 300

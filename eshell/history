@@ -1,0 +1,32 @@
+ll
+ll
+ls
+cd workspace/
+ls
+cd lgcms/
+ls
+cd ../..
+ll
+ls
+bamboo shell
+albums	FOREIGN MANY Albumll
+ls 
+exit
+cd ..
+grep -rn 'isSpecial' .
+grep -rn '会员' .
+grep -rn 'isVIP' .
+grep -rn 'VIP' .
+grep -rn "Foreign('onlines')" .
+grep -rn "addForeign('onlines')" .
+grep -rn "addForeign('onlines'" .
+cat script/weboo_js.lua 
+exit
+cd ..
+grep -rn 'mbimage' .
+exit
+cd ..
+grep -rn 'seg_freelist_' .
+cd css/
+grep-rn 'm_da' .
+grep -rn 'm_da' .

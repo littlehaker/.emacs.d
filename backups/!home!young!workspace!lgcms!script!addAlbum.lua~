@@ -1,0 +1,1 @@
+LGUser:all():each(function(u) if u:numForeign('albums') < 1 then print(u.username) end end)
