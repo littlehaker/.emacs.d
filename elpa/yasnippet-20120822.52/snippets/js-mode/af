@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: afn
+# --
+function(${1:args}) {
+  $0
+}
