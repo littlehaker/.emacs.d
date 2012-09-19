@@ -39,6 +39,9 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+;; evil-mode
+;; (require 'evil-mode)
+(global-set-key [(f12)] 'evil-mode)
 ;; 绑定auto-complete和yasnippet
 
 ;; (require 'auto-complete-yasnippet)
