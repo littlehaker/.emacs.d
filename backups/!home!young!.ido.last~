@@ -14,7 +14,7 @@
  ("/home/young/workspace/lgcms/views/" . "parts/")
  ("/home/young/GIT/" . "bamboo-redis/")
  ("/home/young/" . "desktop/")
- ("/home/young/workspace/lgcms/" . "app/")
+ ("/home/young/workspace/lgcms/" . "media/")
  ("/home/young/workspace/" . "lgcms/")
  ("/home/young/.emacs.d/elpa/" . "yasnippet-20120822.52/")
  ("/home/young/.emacs.d/" . "elpa/")
@@ -23,6 +23,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/young/desktop/"
+ "/home/young/workspace/lgcms/media/js/"
  "/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/lua-mode/"
  "/home/young/"
  "desktop/"
@@ -30,7 +31,6 @@
  "/home/young/.emacs.d/"
  "/home/young/workspace/lgcms/mixin/"
  "/home/young/workspace/lgcms/models/"
- "/home/young/workspace/lgcms/media/js/"
  "/home/young/workspace/lgcms/script/"
  "/home/young/workspace/lgcms/views/oo/"
  "/home/young/download/mmseg-3.2.14/src/css/"
@@ -51,6 +51,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "test.html"
+ "weboo.js"
  "test.lua"
  "local handler.yasnippet"
  "func"
@@ -59,15 +61,13 @@
  "test.org"
  "c.org"
  "oo.lua"
- "forum.lua"
- "handler_entry.lua"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/young/desktop/" (20569 31243) "简历表.doc" "test.html" "../" "c.lua" "mmseg_new.cpp" "#test.html#" "#test.lua#" "c.org" "4e17996b75cc92d35f92cf183f9dea8163e886" "./" "#test.org#" "xstbanner2.jpg" "oo_new.lua" "#test.c#" "test.lua" "下载.png" "mmseg.cpp" "mmseg_test.lua")
+ ("/home/young/desktop/" (20569 31540) "简历表.doc" "test.html" "../" "c.lua" "mmseg_new.cpp" "#test.html#" "#test.lua#" "c.org" "4e17996b75cc92d35f92cf183f9dea8163e886" "./" "#test.org#" "xstbanner2.jpg" "oo_new.lua" "#test.c#" "test.lua" "下载.png" "mmseg.cpp" "mmseg_test.lua")
 
- ("/home/young/" (20569 31243) ".profile" ".recentf" ".bash_logout" ".vimperator/" ".macromedia/" "%APPDATA%/" ".Private/" ".compiz-1/" ".themes/" ".cache/" ".dbus/" ".goutputstream-4UW3KW" ".ido.last" ".goutputstream-JXI3JW" ".goutputstream-K86JKW" ".gconf/" "young/" ".emacs" ".gegl-0.0/" ".xsession-errors.old" ".emacs.d/" ".gnupg/" ".goutputstream-OCKOKW" ".goutputstream-HKVLKW" "文档/" ".gnome2/" ".goutputstream-SWL8JW" ".Xauthority" "视频/" ".xsession-errors" ".viminfo" ".adobe/" ".goutputstream-HWRIKW" ".qq2012/" ".fonts/" ".goutputstream-6A2FKW" ".ecryptfs/" ".ICEauthority" ".goutputstream-HO0YKW" "模板/" ".fonts.conf" ".thumbnails/" ".gstreamer-0.10/" ".gvfs/" "图片/" ".lesshst" ".gimp-2.6/" ".goutputstream-UDIMKW" ".mozilla/" ".bashrc" "#.emacs#" ".goutputstream-E301JW" ".bash_history" "Ubuntu One/" ".pulse-cookie" "workspace/" "download/" ".mplayer/" ".shotwell/" ".fontconfig/" ".ssh/" ".xinput.d/" "GIT/" ".goutputstream-ZBX1JW" ".pki/" "音乐/" ".VirtualBox/" ".gtk-bookmarks" ".gnome2_private/" "examples.desktop" "desktop/" ".gitconfig" ".thunderbird/" ".bambooconfig" ".apport-ignore.xml" ".local/" ".pulse/" "公共的/" ".kde/" ".rediscli_history" ".config/" ".mission-control/" "VirtualBox VMs/" "../" "./")
+ ("/home/young/" (20569 31540) ".profile" ".recentf" ".bash_logout" ".vimperator/" ".macromedia/" "%APPDATA%/" ".Private/" ".compiz-1/" ".themes/" ".cache/" ".dbus/" ".goutputstream-4UW3KW" ".ido.last" ".goutputstream-JXI3JW" ".goutputstream-K86JKW" ".gconf/" "young/" ".emacs" ".gegl-0.0/" ".xsession-errors.old" ".emacs.d/" ".gnupg/" ".goutputstream-OCKOKW" ".goutputstream-HKVLKW" "文档/" ".gnome2/" ".goutputstream-SWL8JW" ".Xauthority" "视频/" ".xsession-errors" ".viminfo" ".adobe/" ".goutputstream-HWRIKW" ".qq2012/" ".fonts/" ".goutputstream-6A2FKW" ".ecryptfs/" ".ICEauthority" ".goutputstream-HO0YKW" "模板/" ".fonts.conf" ".thumbnails/" ".gstreamer-0.10/" ".gvfs/" "图片/" ".lesshst" ".gimp-2.6/" ".goutputstream-UDIMKW" ".mozilla/" ".bashrc" "#.emacs#" ".goutputstream-E301JW" ".bash_history" "Ubuntu One/" ".pulse-cookie" "workspace/" "download/" ".mplayer/" ".shotwell/" ".fontconfig/" ".ssh/" ".xinput.d/" "GIT/" ".goutputstream-ZBX1JW" ".pki/" "音乐/" ".VirtualBox/" ".gtk-bookmarks" ".gnome2_private/" "examples.desktop" "desktop/" ".gitconfig" ".thunderbird/" ".bambooconfig" ".apport-ignore.xml" ".local/" ".pulse/" "公共的/" ".kde/" ".rediscli_history" ".config/" ".mission-control/" "VirtualBox VMs/" "../" "./")
 
  ("/home/young/.emacs.d/elpa/yasnippet-20120822.52/snippets/lua-mode/" (20569 31064) "../" "while.yasnippet" "for i.yasnippet" "./" "local function.yasnippet" "repeat.yasnippet" "for ipairs.yasnippet" ".yas-parents" "fun.yasnippet" "if.yasnippet" "for pairs.yasnippet" "function.yasnippet")
 
