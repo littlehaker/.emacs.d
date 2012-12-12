@@ -11,7 +11,10 @@
 ;(require 'zen-and-art-theme)
 ;; (require 'color-theme-solarized)
 ;; (color-theme-solarized-light)
+;; (require 'tomorrow-night-bright-theme)
 (require 'tomorrow-night-theme)
+
+
 (require 'lua-mode)
 
 (require 'autopair)
@@ -36,8 +39,33 @@
 (global-set-key (kbd "C-x C-z") 'magit-status)
 (global-set-key (kbd "M-w") 'whole-line-or-region-kill-ring-save)
 
+;; (global-set-key (kbd "C-,") 'goto-line)
+
 (require 'yasnippet)
 (yas-global-mode 1)
+
+
+;; 彩色括号
+(require 'rainbow-delimiters)
+(global-rainbow-delimiters-mode)
+
+;; 绑定按键
+(global-set-key [(ctrl tab)] 'other-window)
+
+;; 禁用auto-fill-mode
+(setq auto-fill-mode -1)
+(setq fill-column 99999)
+(setq-default fill-column 99999)
+
+;; 字体
+(set-default-font "WenQuanYi Micro Hei Mono-13.5")
+;; (set-default-font "URW Gothic L-13.5")
+;; (set-default-font "Droid Sans-13.5")
+;; (set-default-font "WenQuanYi Micro Hei-14")
+;; (set-default-font "Ubuntu-15")
+
+
+(global-set-key "\M-k" '(lambda () (interactive) (kill-line 0)) ) ;M-k kills to the left
 
 ;; evil-mode
 ;; (require 'evil-mode)
@@ -97,8 +125,64 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ac-auto-show-menu t)
+ ;; '(coffee-mode-hook nil)
+ '(coffee-tab-width 2)
+ '(flymake-jslint-command "jslint")
  '(js-indent-level 2)
  '(js2-basic-offset 2))
+
+(add-hook 'coffee-mode-hook
+          (lambda ()
+            (define-key coffee-mode-map (kbd "<backtab>") 'coffee-unindent)))
+
+
+
+;; Shift the selected region right if distance is positive, left if
+;; negative
+
+(defun shift-region (distance)
+  (let ((mark (mark)))
+    (save-excursion
+      (indent-rigidly (region-beginning) (region-end) distance)
+      (push-mark mark t t)
+      ;; Tell the command loop not to deactivate the mark
+      ;; for transient mark mode
+      (setq deactivate-mark nil))))
+
+(defun shift-right ()
+  (interactive)
+  (shift-region 1))
+
+(defun shift-left ()
+  (interactive)
+  (shift-region -1))
+
+;; Bind (shift-right) and (shift-left) function to your favorite keys. I use
+;; the following so that Ctrl-Shift-Right Arrow moves selected text one 
+;; column to the right, Ctrl-Shift-Left Arrow moves selected text one
+;; column to the left:
+
+(require 'livescript-mode)
+;; (define-key livescript-mode-map "\C-c\C-l" 'livescript-compile-buffer)
+
+
+(global-undo-tree-mode)
+(global-set-key (kbd "C-?") 'undo-tree-redo)
+
+(global-set-key [C-S-right] 'shift-right)
+(global-set-key [C-S-left] 'shift-left)
+
+
+(defun coffee-unindent-block ()
+  (shift-region (- coffee-tab-width))
+  (setq deactivate-mark nil))
+(defun coffee-unindent ()
+  (interactive)
+  (if mark-active
+      (coffee-unindent-block)
+    (progn
+      (indent-line-to (- (current-indentation) coffee-tab-width)))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
