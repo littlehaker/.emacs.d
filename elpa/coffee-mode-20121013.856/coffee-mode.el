@@ -336,8 +336,8 @@ called `coffee-compiled-buffer-name'."
 ;;
 
 ;; String literals
-(defvar coffee-string-regexp "\"\\([^\\]\\|\\\\.\\)*?\"\\|'\\([^\\]\\|\\\\.\\)*?'")
-
+;; (defvar coffee-string-regexp "\"\\([^\\]\\|\\\\.\\)*?\"\\|'\\([^\\]\\|\\\\.\\)*?'|")
+(defvar coffee-string-regexp "\"\\([^\\]\\|\\\\.\\)*?\"\\|'\\([^\\]\\|\\\\.\\)*?'\\|\\\\[^]}\),;[:space:]\n]+")
 ;; Instance variables (implicit this)
 (defvar coffee-this-regexp "@\\(\\w\\|_\\)*\\|this")
 
@@ -351,7 +351,8 @@ called `coffee-compiled-buffer-name'."
 (defvar coffee-local-assign-regexp "\\(\\(_\\|\\w\\|\\$\\)+\\)\s+=")
 
 ;; Lambda
-(defvar coffee-lambda-regexp "\\((.+)\\)?\\s *\\(->\\|=>\\)")
+;; (defvar coffee-lambda-regexp "\\((.+)\\)?\\s *\\(->\\|=>\\)")
+(defvar coffee-lambda-regexp "\\((.+)\\)?\\s *\\(->\\|=>\\|~>\\|<-\\|<~\\|!\\||>\\)")
 
 ;; Namespaces
 (defvar coffee-namespace-regexp "\\b\\(class\\s +\\(\\S +\\)\\)\\b")

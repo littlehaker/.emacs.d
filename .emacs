@@ -162,8 +162,20 @@
 ;; column to the right, Ctrl-Shift-Left Arrow moves selected text one
 ;; column to the left:
 
-(require 'livescript-mode)
+;; (require 'coco-mode)
+;; (require 'livescript-mode)
+;; (add-hook 'livescript-mode-hook
+;;           (lambda ()
+;;             (define-key livescript-mode-map (kbd "<backtab>") 'livescript-unindent)))
+;; (defun livescript-unindent ()
+;;   (interactive)
+;;   (if mark-active
+;;       ;; (coffee-unindent-block)
+;;     (progn
+;;       (indent-line-to (- (current-indentation) 2)))))
 ;; (define-key livescript-mode-map "\C-c\C-l" 'livescript-compile-buffer)
+
+(add-to-list 'auto-mode-alist '("\\.ls\\'" . coffee-mode))
 
 
 (global-undo-tree-mode)
