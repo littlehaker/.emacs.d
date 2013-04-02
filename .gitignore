@@ -1,0 +1,6 @@
+/.session
+session*
+/tramp
+/auto-save-list
+/backups
+/eshell

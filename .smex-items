@@ -1,29 +1,29 @@
 
 ;; ----- smex-history -----
 (
- yas-minor-mode
- line-number-mode
- package-list-packages
- customize
  eval-current-buffer
- clipboard-yank
  package-list-packages-no-fetch
+ what-domain
+ whitespace-mode
+ grep
+ magit-status
+ package-list-packages
 )
 
 ;; ----- smex-data -----
 (
  (ibuffer . 5)
  (package-install . 1)
- (package-list-packages . 8)
- (package-list-packages-no-fetch . 25)
- (eval-current-buffer . 35)
+ (package-list-packages . 9)
+ (package-list-packages-no-fetch . 31)
+ (eval-current-buffer . 45)
  (enable-theme . 1)
  (lua-mode . 1)
  (color-theme-parus . 1)
  (color-theme-xp . 1)
  (package-initialize . 1)
  (color-theme-solarized . 1)
- (color-theme-solarized-dark . 2)
+ (color-theme-solarized-dark . 4)
  (global-linum-mode . 1)
  (esk-insert-date . 1)
  (grep . 15)
@@ -70,4 +70,12 @@
  (yas/minor-mode . 2)
  (yas-minor-mode . 5)
  (line-number-mode . 2)
+ (minimap-create . 4)
+ (minimap-kill . 3)
+ (emacs-uptime . 1)
+ (whitespace-mode . 4)
+ (highlight-indentation-mode . 1)
+ (highlight-parentheses-mode . 1)
+ (what-domain . 1)
+ (helm-M-x . 1)
 )

@@ -13,13 +13,28 @@
 ;; (color-theme-solarized-light)
 ;; (require 'tomorrow-night-bright-theme)
 (require 'tomorrow-night-theme)
-
+(require 'molokai-theme)
+(color-theme-solarized-dark)
+;; (require 'subatomic-theme)
 
 (require 'lua-mode)
 
 (require 'autopair)
 (autopair-global-mode)
+
+(highlight-indentation-mode)
+(highlight-parentheses-mode)
 ;(pc-selection-mode)
+
+;; (require 'web-mode)
+;; (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
 (global-linum-mode)
 (require 'whole-line-or-region)
@@ -28,13 +43,55 @@
 (require 'auto-complete)
 (global-auto-complete-mode)
 
+(helm-mode 1)
+(global-set-key (kbd "M-p") 'helm-occur)
+
+;; (require 'main-line)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(main-line-active1 ((t (:inherit mode-line :background "grey22" :foreground "white"))))
+ '(main-line-active2 ((t (:inherit mode-line :background "grey40" :foreground "white"))))
+ '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+ '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil))))
+ '(mumamo-background-chunk-major ((t nil)))
+ '(mumamo-background-chunk-submode1 ((t (:background "gray20"))))
+ '(powerline-active1 ((t (:inherit mode-line :background "grey22" :foreground "white"))))
+ '(powerline-active2 ((t (:inherit mode-line :background "grey40" :foreground "white")))))
+(setq powerline-color1 "grey22")
+(setq powerline-color2 "grey40")
+(powerline-default-center)
+;; (require 'smart-mode-line)
+;; (sml/setup)
+
+(require 'smart-forward)
+(global-set-key (kbd "M-<up>") 'smart-up)
+(global-set-key (kbd "M-<down>") 'smart-down)
+(global-set-key (kbd "M-<left>") 'smart-backward)
+(global-set-key (kbd "M-<right>") 'smart-forward)
+
+(require 'multiple-cursors)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key [(f2)] 'helm-projectile)
+(global-hl-line-mode)
+
 (require 'highlight-symbol)
 (highlight-symbol-mode)
 (global-set-key [(f3)] 'highlight-symbol-next)
 (global-set-key [(meta f3)] 'highlight-symbol-prev)
 (global-set-key [(ctrl f3)] 'highlight-symbol-at-point)
 
-(global-set-key [(f1)] 'ibuffer)
+;; (global-set-key [(f1)] 'ibuffer)
+(global-set-key [(f1)] 'helm-mini)
+
 (global-set-key (kbd "C-c C-g") 'goto-line)
 (global-set-key (kbd "C-x C-z") 'magit-status)
 (global-set-key (kbd "M-w") 'whole-line-or-region-kill-ring-save)
@@ -44,6 +101,7 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+;; (require 'main-line)
 
 ;; 彩色括号
 (require 'rainbow-delimiters)
@@ -125,11 +183,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ac-auto-show-menu t)
- ;; '(coffee-mode-hook nil)
  '(coffee-tab-width 2)
  '(flymake-jslint-command "jslint")
+ '(httpd-port 8000)
  '(js-indent-level 2)
- '(js2-basic-offset 2))
+ '(js2-basic-offset 2)
+ '(main-line-separator-style (quote zigzag)))
 
 (add-hook 'coffee-mode-hook
           (lambda ()
@@ -175,11 +234,17 @@
 ;;       (indent-line-to (- (current-indentation) 2)))))
 ;; (define-key livescript-mode-map "\C-c\C-l" 'livescript-compile-buffer)
 
-(add-to-list 'auto-mode-alist '("\\.ls\\'" . coffee-mode))
+(require 'fold-dwim)
+(global-set-key [(super tab)] 'fold-dwim-toggle)
+(global-set-key (kbd "C-`") 'fold-dwim-toggle-selective-display)
 
+
+
+(add-to-list 'auto-mode-alist '("\\.ls\\'" . coffee-mode))
 
 (global-undo-tree-mode)
 (global-set-key (kbd "C-?") 'undo-tree-redo)
+(global-set-key (kbd "C-z") 'undo-tree-undo)
 
 (global-set-key [C-S-right] 'shift-right)
 (global-set-key [C-S-left] 'shift-left)
@@ -195,10 +260,5 @@
     (progn
       (indent-line-to (- (current-indentation) coffee-tab-width)))))
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(mumamo-background-chunk-major ((t nil)))
- '(mumamo-background-chunk-submode1 ((t (:background "gray20")))))
+
+

@@ -30,3 +30,10 @@ grep -rn 'seg_freelist_' .
 cd css/
 grep-rn 'm_da' .
 grep -rn 'm_da' .
+ls
+cd 
+ls
+cd download/
+ls
+ls
+exit
