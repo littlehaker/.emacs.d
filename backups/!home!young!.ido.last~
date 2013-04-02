@@ -2,7 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/young/.emacs.d/elpa/" . "web-0.1.2/")
+ ("/home/young/.emacs.d/elpa/" . "powerline-20130328.2105/")
  ("/home/young/download/js/" . "jquery-ui-1.10.2.custom/")
  ("/home/young/workspace/node.js/chat/public/js/" . "chat/")
  ("/home/young/workspace/node.js/chat/public/" . "js/")
@@ -17,8 +17,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/young/"
- "/home/young/.emacs.d/"
  "/home/young/.emacs.d/elpa/powerline-20130328.2105/"
+ "/home/young/.emacs.d/"
  "/home/young/workspace/node.js/chat/views/unit/homepage/"
  "/home/young/workspace/node.js/chat/model/"
  "/home/young/download/js/jquery-ui-1.10.2.custom/"
@@ -32,6 +32,8 @@
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
+ "powerline.el"
+ ".gitignore"
  "main-line.el"
  "powerline-autoloads.el"
  "powerline-pkg.el"
@@ -39,19 +41,19 @@
  "AlsoAD.js"
  "userdata.ls"
  "index.html"
- "app.js"
- "diary"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/young/" (20826 22293 14683 363000) ".adobe/" ".fonts/" ".ido.last" ".nvidia-settings-rc" ".Xauthority" ".FontForge/" "音乐/" ".cache/" ".pulse-cookie" ".bash_history" "diary" ".macromedia/" ".presage/" ".linuxmint/" "./" ".gimp-2.8/" ".gstreamer-0.10/" "TeamSpeak3-Client-linux_amd64/" "桌面/" ".ssh/" ".vim/" ".ts3client/" ".pulse/" "../" ".config/" "项目/" ".icedtea/" ".recentf" "download/" ".longene/" ".xsession-errors" ".local/" "图片/" ".rediscli_history" ".fonts.conf" ".recently-used" ".gtkrc-2.0-kde4" ".gnome2_private/" ".kderc" ".bash_logout" ".dbshell" "TeamSpeak3-Client-linux_amd64-3.0.10.run" ".mplayer/" "prelude/" ".dbus/" "teamspeak3.txt" ".profile" "powerline-shell.py" "文档/" ".emacs" ".face.icon" "视频/" ".gnome2/" ".gconf/" "test/" ".emacs.d/" ".erc/" ".bashrc" "AlsoAD.js" ".mozilla/" ".kde/" ".gtkrc-2.0" ".directory" ".thumbnails/" ".pki/" ".xinput.d/" ".npm/" ".dmrc" ".gnupg/" "workspace/" ".viminfo" ".java/")
+
+ ("/home/young/.emacs.d/elpa/powerline-20130328.2105/" (20826 21050 310680 592000) "powerline-pkg.elc" "./" "powerline-pkg.el" "powerline.elc" "powerline-autoloads.el" "../" "powerline.el")
+
+ ("/home/young/.emacs.d/elpa/" (20826 21049 694680 591000) "magit-1.1.1/" "ucs-utils-20121205.1457/" "mongo-readme.txt" "undo-tree-readme.txt" "popup-0.5/" "zencoding-mode-0.5.1/" "paredit-22/" "blank-mode-20080905.553/" "tabbar-20110824.1439/" "rainbow-mode-0.7/" "multiple-cursors-readme.txt" "tabbar-ruler-20130327.1141/" "nurumacs-20130316.116/" "molokai-theme-20120503.1929/" "zen-and-art-theme-1.0.1/" "unicode-whitespace-20121205.1458/" "flymake-jslint-20120319.1604/" "google-contacts-readme.txt" "http-twiddle-20121117.1436/" "interval-tree-readme.txt" "expand-region-20130302.1954/" "ac-js2-20130320.1728/" "web-0.1.2/" "smart-operator-20051013.1756/" "./" "highlight-parentheses-20130323.4/" "pcache-20120408.1206/" "starter-kit-bindings-2.0.2/" "s-20130320.1524/" "helm-git-readme.txt" "archives/" "helm-c-yasnippet-readme.txt" "helm-projectile-20130131.2338/" "skewer-mode-20130324.8/" "rainbow-delimiters-20120428.45/" "sws-mode-20120730.2122/" "info+-readme.txt" "enotify-readme.txt" "dash-20130311.1525/" "yasnippet-20120822.52/" "google-this-readme.txt" "helm-gtags-readme.txt" "undo-tree-0.5.3/" "hl-line+-readme.txt" "impatient-mode-20130127.1656/" "eredis-20120808.2207/" "ac-js2-readme.txt" "subatomic-theme-20130226.2229/" "find-file-in-project-3.2/" "../" "ido-ubiquitous-1.2/" "list-utils-20121205.1456/" "evil-20120912.815/" "fold-dwim-20120926.1236/" "highlight-symbol-1.1/" "yascroll-readme.txt" "pastels-on-dark-theme-0.3/" "color-theme-solarized-20120301/" "google-translate-20121018.923/" "hl-line+-20130117.1613/" "helm-20130328.1657/" "smart-mode-line-20121129.1435/" "js2-refactor-20130314.1639/" "inf-mongo-20130305.127/" "htmlize-20130207.2102/" "ace-jump-mode-1.0/" "whole-line-or-region-1.3.1/" "color-theme-sanityinc-solarized-20130328.2017/" "smart-forward-20130205.1352/" "idle-highlight-mode-1.1.2/" "stylus-mode-20120730.1950/" "multi-web-mode-20130205.2044/" "nyan-mode-20120710.1922/" "mongo-20120826.14/" "jade-mode-20120903.757/" "image-dired+-readme.txt" "fold-this-readme.txt" "tango-2-theme-20120312.1325/" "emacs-setup-readme.txt" "highlight-indentation-20130106.41/" "google-contacts-20130304.1402/" "less-css-mode-0.6/" "coffee-mode-20121013.856/" "color-theme-6.5.5/" "persistent-soft-20121205.1456/" "auto-complete-20120917.1341/" "typing-readme.txt" "projectile-20130228.245/" "main-line-readme.txt" "airplay-readme.txt" "google-weather-readme.txt" "font-utils-readme.txt" "minimap-20110427.1123/" "project-1.0/" "lua-mode-20110428/" "yasnippet-20130218.2229/" "smex-1.1.3/" "multiple-cursors-20130328.1941/" "clippy-readme.txt" "starter-kit-2.0.3/" "js2-mode-20130307.2012/" "autopair-0.3/" "unicode-whitespace-readme.txt" "powerline-20130328.2105/" "simple-httpd-20121224.1121/")
+
+ ("/home/young/.emacs.d/" (20826 21381 450681 331000) "projectile-bookmarks.eld" ".smex-items" "url/" "session.10453100000136452876700000016690024" "main-line.el" "./" "session.1092f67c92a755ac14134771335943445000000020720038" "lua-mode (复件).el" ".mc-lists.el" "session.10b55aa1946bc7025013468938635007900000017470038" "../" "auto-complete-yasnippet.el" "web-mode.el" ".gitignore" "eshell/" "backups/" "nxhtml/" "ac-comphist.dat" ".emacs" "tramp" "themes/" "elpa/" "var/" "session.10a4788c01b248b321134732627974562400000021050038" "livescript-mode.el" "session.108de19a528b6c10d5134629835885416800000019020042" "places" ".directory" ".git/" "auto-save-list/")
+
  ("/home/young/workspace/node.js/chat/app/" (20825 24944 250957 216000) "chat-server.ls" "chat-client.ls" "upload.ls" "homepage.ls" "unit.ls" "fix.ls" "./" "../" "user.ls" "error.ls" "temp/" "superadmin.ls" "agent.ls")
-
- ("/home/young/" (20825 24719 890966 89000) ".adobe/" ".ido.last" ".nvidia-settings-rc" ".Xauthority" "音乐/" ".cache/" ".pulse-cookie" ".bash_history" "diary" ".macromedia/" ".presage/" ".linuxmint/" "./" ".gimp-2.8/" ".gstreamer-0.10/" "TeamSpeak3-Client-linux_amd64/" "桌面/" ".ssh/" ".ts3client/" ".pulse/" "../" ".config/" "项目/" ".icedtea/" ".recentf" "download/" ".longene/" ".xsession-errors" ".local/" "图片/" ".rediscli_history" ".fonts.conf" ".recently-used" ".gtkrc-2.0-kde4" ".gnome2_private/" ".kderc" ".bash_logout" ".dbshell" "TeamSpeak3-Client-linux_amd64-3.0.10.run" ".mplayer/" ".dbus/" "teamspeak3.txt" ".profile" "文档/" ".emacs" ".face.icon" "视频/" ".gnome2/" ".gconf/" "test/" ".emacs.d/" ".bashrc" "AlsoAD.js" ".mozilla/" ".kde/" ".gtkrc-2.0" ".directory" ".thumbnails/" ".pki/" ".xinput.d/" ".npm/" ".dmrc" ".gnupg/" "workspace/" ".viminfo" ".java/")
-
- ("/home/young/.emacs.d/" (20825 23650 875008 368000) "projectile-bookmarks.eld" ".smex-items" "url/" "session.10453100000136452876700000016690024" "main-line.el" "./" "session.1092f67c92a755ac14134771335943445000000020720038" "lua-mode (复件).el" ".mc-lists.el" "session.10b55aa1946bc7025013468938635007900000017470038" "../" "auto-complete-yasnippet.el" "web-mode.el" "eshell/" "backups/" "nxhtml/" "ac-comphist.dat" ".emacs" "tramp" "themes/" "elpa/" "var/" "session.10a4788c01b248b321134732627974562400000021050038" "livescript-mode.el" "session.108de19a528b6c10d5134629835885416800000019020042" "places" ".git/" "auto-save-list/")
-
- ("/home/young/.emacs.d/elpa/powerline-20130328.2105/" (20824 65347 731073 982000) "powerline-pkg.elc" "./" "powerline-pkg.el" "powerline.elc" "powerline-autoloads.el" "../" "powerline.el")
 
  ("/home/young/workspace/node.js/chat/views/unit/homepage/" (20816 11148 878872 395000) "invitor.ejs" "./" "template1.jade" "../" "button.js.ejs" "button.js (复件).ejs" "button-func.js.ejs")
 
@@ -62,8 +64,6 @@
  ("/home/young/workspace/node.js/chat/model/" (20812 11063 373733 743000) "guest.ls" "leavemsg.ls" "unit.ls" "./" "msg.ls" "schema.ls" "notification.ls" "../" "user.ls" "userdata.ls")
 
  ("/home/young/.emacs.d/elpa/web-0.1.2/" (20821 4515 644616 467000) "./" "web-pkg.elc" "web.el" "../" "web-pkg.el" "web-autoloads.el" "web-test.el")
-
- ("/home/young/.emacs.d/elpa/" (20825 733 75037 544000) "magit-1.1.1/" "ucs-utils-20121205.1457/" "mongo-readme.txt" "undo-tree-readme.txt" "popup-0.5/" "zencoding-mode-0.5.1/" "paredit-22/" "blank-mode-20080905.553/" "tabbar-20110824.1439/" "rainbow-mode-0.7/" "multiple-cursors-readme.txt" "tabbar-ruler-20130327.1141/" "nurumacs-20130316.116/" "molokai-theme-20120503.1929/" "zen-and-art-theme-1.0.1/" "unicode-whitespace-20121205.1458/" "flymake-jslint-20120319.1604/" "google-contacts-readme.txt" "http-twiddle-20121117.1436/" "interval-tree-readme.txt" "expand-region-20130302.1954/" "ac-js2-20130320.1728/" "web-0.1.2/" "smart-operator-20051013.1756/" "./" "highlight-parentheses-20130323.4/" "pcache-20120408.1206/" "starter-kit-bindings-2.0.2/" "s-20130320.1524/" "helm-git-readme.txt" "archives/" "helm-c-yasnippet-readme.txt" "helm-projectile-20130131.2338/" "skewer-mode-20130324.8/" "rainbow-delimiters-20120428.45/" "sws-mode-20120730.2122/" "info+-readme.txt" "enotify-readme.txt" "dash-20130311.1525/" "yasnippet-20120822.52/" "google-this-readme.txt" "helm-gtags-readme.txt" "undo-tree-0.5.3/" "hl-line+-readme.txt" "impatient-mode-20130127.1656/" "eredis-20120808.2207/" "ac-js2-readme.txt" "subatomic-theme-20130226.2229/" "find-file-in-project-3.2/" "../" "ido-ubiquitous-1.2/" "list-utils-20121205.1456/" "evil-20120912.815/" "fold-dwim-20120926.1236/" "highlight-symbol-1.1/" "yascroll-readme.txt" "pastels-on-dark-theme-0.3/" "color-theme-solarized-20120301/" "google-translate-20121018.923/" "hl-line+-20130117.1613/" "main-line-20130320.1807/" "helm-20130328.1657/" "smart-mode-line-20121129.1435/" "js2-refactor-20130314.1639/" "inf-mongo-20130305.127/" "htmlize-20130207.2102/" "ace-jump-mode-1.0/" "whole-line-or-region-1.3.1/" "color-theme-sanityinc-solarized-20130328.2017/" "smart-forward-20130205.1352/" "idle-highlight-mode-1.1.2/" "stylus-mode-20120730.1950/" "nyan-mode-20120710.1922/" "mongo-20120826.14/" "jade-mode-20120903.757/" "image-dired+-readme.txt" "fold-this-readme.txt" "tango-2-theme-20120312.1325/" "emacs-setup-readme.txt" "highlight-indentation-20130106.41/" "google-contacts-20130304.1402/" "less-css-mode-0.6/" "coffee-mode-20121013.856/" "color-theme-6.5.5/" "persistent-soft-20121205.1456/" "auto-complete-20120917.1341/" "typing-readme.txt" "projectile-20130228.245/" "main-line-readme.txt" "airplay-readme.txt" "google-weather-readme.txt" "font-utils-readme.txt" "minimap-20110427.1123/" "project-1.0/" "lua-mode-20110428/" "yasnippet-20130218.2229/" "smex-1.1.3/" "multiple-cursors-20130328.1941/" "clippy-readme.txt" "starter-kit-2.0.3/" "js2-mode-20130307.2012/" "autopair-0.3/" "unicode-whitespace-readme.txt" "powerline-20130328.2105/" "simple-httpd-20121224.1121/")
 
  ("/home/young/download/js/jquery-ui-1.10.2.custom/" (20811 54392 437600 237000) "./" "../" "index.html" "js/" "css/" "development-bundle/")
 

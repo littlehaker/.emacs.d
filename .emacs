@@ -48,6 +48,12 @@
 
 ;; (require 'main-line)
 
+(require 'powerline)
+
+;; (setq powerline-arrow-shape 'arrow)   ;; the default
+;; (custom-set-faces
+;;  '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+;;  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -55,15 +61,29 @@
  ;; If there is more than one, they won't work right.
  '(main-line-active1 ((t (:inherit mode-line :background "grey22" :foreground "white"))))
  '(main-line-active2 ((t (:inherit mode-line :background "grey40" :foreground "white"))))
- '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+ ;; '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+ '(mode-line ((t (:foreground "gray30" :background "#bdbdbd" :box nil))))
  '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil))))
  '(mumamo-background-chunk-major ((t nil)))
  '(mumamo-background-chunk-submode1 ((t (:background "gray20"))))
  '(powerline-active1 ((t (:inherit mode-line :background "grey22" :foreground "white"))))
  '(powerline-active2 ((t (:inherit mode-line :background "grey40" :foreground "white")))))
-(setq powerline-color1 "grey22")
-(setq powerline-color2 "grey40")
-(powerline-default-center)
+;; (setq powerline-color1 "grey22")
+;; (setq powerline-color2 "grey40")
+;; (setq powerline-color1 "grey22")
+;; (setq powerline-color2 "grey40")
+;; (powerline-default-center)
+
+;; (setq powerline-color1 "#657b83")
+;; (setq powerline-color2 "#839496")
+
+;; (set-face-attribute 'mode-line nil
+;;                     :foreground "#fdf6e3"
+;;                     :background "#859900"
+;;                     :box nil)
+;; (set-face-attribute 'mode-line-inactive nil
+;;                     :box nil)
+
 ;; (require 'smart-mode-line)
 ;; (sml/setup)
 
@@ -116,7 +136,9 @@
 (setq-default fill-column 99999)
 
 ;; 字体
-(set-default-font "WenQuanYi Micro Hei Mono-13.5")
+;; (set-default-font "WenQuanYi Micro Hei Mono-13.5")
+(set-default-font "Monaco for Powerline-12")
+
 ;; (set-default-font "URW Gothic L-13.5")
 ;; (set-default-font "Droid Sans-13.5")
 ;; (set-default-font "WenQuanYi Micro Hei-14")
