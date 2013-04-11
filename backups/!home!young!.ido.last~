@@ -2,66 +2,159 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/young/.emacs.d/elpa/" . "powerline-20130328.2105/")
+ ("/" . "home/")
+ ("/home/young/workspace/node.js/statistic/app/" . "temp/")
+ ("/home/young/workspace/node.js/chat/public/js/unit/" . "template/")
+ ("/home/young/workspace/node.js/chat/views/" . "superadmin/")
+ ("/home/young/.emacs.d/" . "elpa/")
+ ("/home/young/.emacs.d/elpa/" . "web-mode-20130410.2229/")
  ("/home/young/download/js/" . "jquery-ui-1.10.2.custom/")
- ("/home/young/workspace/node.js/chat/public/js/" . "chat/")
+ ("/home/young/workspace/node.js/chat/public/js/" . "unit/")
  ("/home/young/workspace/node.js/chat/public/" . "js/")
- ("/home/young/workspace/node.js/chat/" . "views/")
+ ("/home/young/workspace/node.js/chat/" . "public/")
  ("/home/young/" . ".emacs.d/")
- ("/home/young/workspace/node.js/statistic/" . "model/")
- ("/home/young/workspace/node.js/" . "chat/")
+ ("/home/young/workspace/node.js/statistic/" . "app/")
+ ("/home/young/workspace/node.js/" . "statistic/")
  ("/home/young/workspace/" . "node.js/")
  ("/home/" . "young/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/young/"
- "/home/young/.emacs.d/elpa/powerline-20130328.2105/"
  "/home/young/.emacs.d/"
- "/home/young/workspace/node.js/chat/views/unit/homepage/"
- "/home/young/workspace/node.js/chat/model/"
- "/home/young/download/js/jquery-ui-1.10.2.custom/"
+ "/home/young/.emacs.d/elpa/web-mode-20130410.2229/"
+ "/home/young/workspace/node.js/"
+ "/home/young/"
+ "/home/young/workspace/node.js/chat/public/js/unit/template/"
  "/home/young/workspace/node.js/chat/public/js/chat/"
- "/home/young/workspace/node.js/statistic/model/"
- "/home/young/workspace/node.js/statistic/"
- "/home/young/workspace/node.js/chat/app/"
+ "/home/young/workspace/node.js/chat/public/"
  "/home/young/workspace/node.js/statistic/app/"
+ "/home/young/workspace/node.js/chat/views/superadmin/"
+ "/home/young/workspace/node.js/chat/public/css/"
+ "/home/young/workspace/node.js/chat/app/"
+ "/home/young/workspace/node.js/statistic/lib/"
+ "/home/young/workspace/node.js/chat/public/js/unit/"
+ "/home/young/workspace/node.js/statistic/app/temp/"
+ "/home/young/workspace/node.js/statistic/"
+ "/home/young/workspace/node.js/chat/views/homepage/"
+ "/home/young/workspace/node.js/chat/lib/"
+ "/home/young/workspace/node.js/chat/"
+ "/home/young/workspace/node.js/statistic/model/"
+ "/home/young/.emacs.d/elpa/js2-mode-20130404.1516/"
+ "/home/young/workspace/node.js/chat/public/js/"
+ "/home/young/workspace/node.js/chat/public/js/unit/view/"
+ "/home/young/workspace/node.js/chat/views/unit/"
+ "/home/young/workspace/node.js/chat/model/"
+ "/home/young/.emacs.d/elpa/coffee-mode-20121013.856/"
+ "/home/young/.emacs.d/elpa/starter-kit-2.0.3/"
+ "/home/young/.emacs.d/elpa/fixmee-20121205.1450/"
+ "/home/young/workspace/node.js/test/"
+ "/home/young/.emacs.d/elpa/nyan-mode-20120710.1922/"
+ "/home/young/workspace/node.js/statistic/doc/"
+ "/home/young/.emacs.d/elpa/powerline-20130328.2105/"
+ "/home/young/workspace/node.js/chat/views/unit/homepage/"
+ "/home/young/download/js/jquery-ui-1.10.2.custom/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
- "powerline.el"
- ".gitignore"
- "main-line.el"
- "powerline-autoloads.el"
- "powerline-pkg.el"
- "xxx"
- "AlsoAD.js"
- "userdata.ls"
- "index.html"
+ "leavemessage-item.html"
+ "socket.js"
+ "superadmin.jade"
+ "unit.css"
+ "unit.js"
+ "helper.js"
+ "app.js"
+ "socket.ls"
+ "about.ejs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/young/" (20826 22293 14683 363000) ".adobe/" ".fonts/" ".ido.last" ".nvidia-settings-rc" ".Xauthority" ".FontForge/" "音乐/" ".cache/" ".pulse-cookie" ".bash_history" "diary" ".macromedia/" ".presage/" ".linuxmint/" "./" ".gimp-2.8/" ".gstreamer-0.10/" "TeamSpeak3-Client-linux_amd64/" "桌面/" ".ssh/" ".vim/" ".ts3client/" ".pulse/" "../" ".config/" "项目/" ".icedtea/" ".recentf" "download/" ".longene/" ".xsession-errors" ".local/" "图片/" ".rediscli_history" ".fonts.conf" ".recently-used" ".gtkrc-2.0-kde4" ".gnome2_private/" ".kderc" ".bash_logout" ".dbshell" "TeamSpeak3-Client-linux_amd64-3.0.10.run" ".mplayer/" "prelude/" ".dbus/" "teamspeak3.txt" ".profile" "powerline-shell.py" "文档/" ".emacs" ".face.icon" "视频/" ".gnome2/" ".gconf/" "test/" ".emacs.d/" ".erc/" ".bashrc" "AlsoAD.js" ".mozilla/" ".kde/" ".gtkrc-2.0" ".directory" ".thumbnails/" ".pki/" ".xinput.d/" ".npm/" ".dmrc" ".gnupg/" "workspace/" ".viminfo" ".java/")
+ ("/home/young/.emacs.d/" (20838 28956 402885 706000) "projectile-bookmarks.eld" ".smex-items" "url/" "session.10453100000136452876700000016690024" "mon-css-color.el" "monokai-theme.el" "main-line.el" "./" "session.1092f67c92a755ac14134771335943445000000020720038" "lua-mode (复件).el" ".mc-lists.el" "session.10b55aa1946bc7025013468938635007900000017470038" "flymake-css.el" "../" "fixme-mode.el" "auto-complete-yasnippet.el" "fixmee.el" "web-mode.el" ".gitignore" "tron-theme.el" "eshell/" "backups/" "leuven-theme.el" "nxhtml/" "ac-comphist.dat" ".emacs" "css-format.el" "tramp" "themes/" "elpa/" "var/" "session.10a4788c01b248b321134732627974562400000021050038" "livescript-mode.el" "session.108de19a528b6c10d5134629835885416800000019020042" "places" ".directory" ".git/" "auto-save-list/" "powerline.el")
+
+ ("/home/young/.emacs.d/elpa/web-mode-20130410.2229/" (20838 26560 926956 484000) "web-mode-pkg.el" "web-mode-autoloads.el" "./" "../" "web-mode.el" "web-mode-pkg.elc" "web-mode.elc")
+
+ ("/home/young/.emacs.d/elpa/" (20838 27840 462918 678000) "magit-1.1.1/" "ace-jump-mode-readme.txt" "ucs-utils-20121205.1457/" "js2-mode-20130404.1516/" "mongo-readme.txt" "undo-tree-readme.txt" "popup-0.5/" "smart-forward-readme.txt" "zencoding-mode-0.5.1/" "paredit-22/" "blank-mode-20080905.553/" "tabbar-20110824.1439/" "bf-mode-readme.txt" "rainbow-mode-0.7/" "requirejs-mode-20130215.1604/" "string-utils-20121108.1917/" "multiple-cursors-readme.txt" "tabbar-ruler-20130327.1141/" "nurumacs-20130316.116/" "molokai-theme-20120503.1929/" "flymake-cursor-20121220.957/" "zen-and-art-theme-1.0.1/" "unicode-whitespace-20121205.1458/" "flymake-jslint-20120319.1604/" "google-contacts-readme.txt" "http-twiddle-20121117.1436/" "interval-tree-readme.txt" "expand-region-20130302.1954/" "ac-js2-20130320.1728/" "markdown-mode-20130309.1151/" "web-0.1.2/" "smart-operator-20051013.1756/" "requirejs-mode-readme.txt" "mmm-mode-20130403.22/" "highlight-parentheses-20130323.4/" "pcache-20120408.1206/" "starter-kit-bindings-2.0.2/" "web-mode-20130410.2229/" "fixmee-readme.txt" "dired+-readme.txt" "s-20130320.1524/" "nav-flash-20121205.1456/" "helm-git-readme.txt" "archives/" "helm-c-yasnippet-readme.txt" "helm-projectile-20130131.2338/" "skewer-mode-20130324.8/" "rainbow-delimiters-20120428.45/" "sws-mode-20120730.2122/" "smartparens-20130407.1809/" "info+-readme.txt" "smartrep-20130312.1839/" "enotify-readme.txt" "dash-20130311.1525/" "google-this-readme.txt" "helm-gtags-readme.txt" "undo-tree-0.5.3/" "flymake-easy-20130405.2130/" "hl-line+-readme.txt" "impatient-mode-20130127.1656/" "eredis-20120808.2207/" "ac-js2-readme.txt" "subatomic-theme-20130226.2229/" "find-file-in-project-3.2/" "ido-ubiquitous-1.2/" "list-utils-20121205.1456/" "evil-20120912.815/" "fold-dwim-20120926.1236/" "highlight-symbol-1.1/" "back-button-20121205.1452/" "yascroll-readme.txt" "pastels-on-dark-theme-0.3/" "color-theme-solarized-20120301/" "iedit-readme.txt" "google-translate-20121018.923/" "hl-line+-20130117.1613/" "js-comint-20080530.957/" "cyberpunk-theme-20130212.958/" "helm-20130328.1657/" "smart-mode-line-20121129.1435/" "smooth-scrolling-readme.txt" "js2-refactor-20130314.1639/" "inf-mongo-20130305.127/" "htmlize-20130207.2102/" "dired-details-20130328.1119/" "ace-jump-mode-1.0/" "whole-line-or-region-1.3.1/" "color-theme-sanityinc-solarized-20130328.2017/" "smart-forward-20130205.1352/" "flymake-jshint-20130402.1658/" "idle-highlight-mode-1.1.2/" "stylus-mode-20120730.1950/" "js-comint-readme.txt" "color-theme-sanityinc-tomorrow-20130328.1412/" "multi-web-mode-20130205.2044/" "button-lock-20121205.1453/" "nyan-mode-20120710.1922/" "mongo-20120826.14/" "jade-mode-20120903.757/" "image-dired+-readme.txt" "tabulated-list-20120406.2251/" "markdown-mode+-20120829.710/" "fold-this-readme.txt" "tango-2-theme-20120312.1325/" "emacs-setup-readme.txt" "highlight-indentation-20130106.41/" "helm-c-yasnippet-20120906.28/" "google-contacts-20130304.1402/" "less-css-mode-0.6/" "coffee-mode-20121013.856/" "color-theme-6.5.5/" "ace-jump-mode-20121104.1157/" "persistent-soft-20121205.1456/" "django-theme-20130309.1841/" "helm-themes-20121020.2316/" "dired-details+-20121228.2028/" "auto-complete-20120917.1341/" "typing-readme.txt" "projectile-20130228.245/" "main-line-readme.txt" "dired+-20130206.1702/" "dired-efap-20100521.25/" "flymake-css-20121104.1904/" "airplay-readme.txt" "mmm-mode-readme.txt" "google-weather-readme.txt" "smooth-scroll-readme.txt" "font-utils-readme.txt" "back-button-readme.txt" "minimap-20110427.1123/" "project-1.0/" "lua-mode-20110428/" "wrap-region-20130224.938/" "yasnippet-20130218.2229/" "smex-1.1.3/" "multiple-cursors-20130328.1941/" "ac-helm-readme.txt" "ac-helm-20130402.355/" "ssh-readme.txt" "clippy-readme.txt" "starter-kit-2.0.3/" "autopair-0.3/" "unicode-whitespace-readme.txt" "smart-tabs-mode-readme.txt" "simple-httpd-20121224.1121/" "../" "./")
+
+ ("/home/young/" (20838 28683 502893 770000) ".adobe/" ".fonts/" ".ido.last" ".nvidia-settings-rc" ".Xauthority" ".FontForge/" "音乐/" ".cache/" ".pulse-cookie" ".bash_history" "diary" ".macromedia/" ".presage/" ".linuxmint/" "./" ".gimp-2.8/" ".gstreamer-0.10/" "TeamSpeak3-Client-linux_amd64/" "桌面/" ".ssh/" ".vim/" ".ts3client/" ".pulse/" "../" ".config/" "项目/" ".icedtea/" ".recentf" "download/" ".longene/" ".xsession-errors" ".local/" "图片/" ".rediscli_history" ".fonts.conf" ".recently-used" ".gtkrc-2.0-kde4" ".gnome2_private/" ".kderc" ".bash_logout" ".dbshell" "TeamSpeak3-Client-linux_amd64-3.0.10.run" ".mplayer/" "prelude/" ".dbus/" "teamspeak3.txt" ".profile" "powerline-shell.py" "文档/" ".dia/" ".emacs" ".face.icon" "视频/" ".gnome2/" ".gconf/" "test/" ".emacs.d/" ".erc/" ".bashrc" "AlsoAD.js" ".mozilla/" ".kde/" ".gtkrc-2.0" ".directory" ".thumbnails/" ".pki/" ".xinput.d/" ".npm/" ".dmrc" ".gnupg/" "workspace/" ".viminfo" ".java/")
+
+ ("/home/young/workspace/node.js/chat/public/" (20838 15032 545065 993000) "favicon.ico" "image/" "upload/" "./" "../" "js/" "css/" "audio/" "apple-touch-icon.png")
+
+ ("/home/young/workspace/node.js/chat/public/js/" (20838 26017 910972 528000) "chat.mobile.min.1.6.3.js" "chat.mobile.old.js" ".cache/" "mobile/" "mixin/" "bootstrap/" "jqplot/" "aloha/" "jq.mobi.min.js" "socket.io.js" "./" "chat.mobile.js" "iscroll.js" "superadmin/" "chat.mobile.js~" "../" "chat.mobile.min.1.6.2.2.js" "unit_old/" "jq.ui.min.js" "chat.mobile.min.1.6.js" "iscroll.min.js" "config/" "chat.mobile.min.1.6.3.1.js" "chat.mobile.min.js" "homepage.js" "unit/" "chat/" "lib/" "chat.mobile.iscroll.js" ".directory" "tmp/" "chat.mobile.min.1.6.2.js" "jq.ui.js" "facedata.js")
+
+ ("/home/young/workspace/node.js/chat/public/js/unit/" (20838 26018 14972 525000) "app.js" "all.js" "main.js" "./" "all.1.6.4.1.js" "../" "milan_data.js" "all.1.6.2.3.js" "all.1.6.4.js" "all.1.6.js" "template/" ".directory" "all.1.6.1.js" "view/" "collection/" "model/")
+
+ ("/home/young/workspace/node.js/chat/public/js/unit/template/" (20838 28408 134901 905000) "suggest.html" "getjs.html" "snippet.html" "visit-item.html" "empty-leavemessage.html" "notifications.html" "./" "statistics.html" "pagination_backup.html" "../" "getjs.old.html" "notification-item.html" "client-item.html" "pagination.html" "chat-history.html" "history-item.html" "update.html" "visits.html" "unit_welcome.html" "leavemessage-item.html" "stat.html" "mcsuggest.html" "empty-notifications.html" "invitesetting.html" "leavemessage.html" "visit-item-old.html" "clients.html")
+
+ ("/home/young/workspace/node.js/chat/public/js/chat/template/" (20838 9312 581234 999000) "leavemsg-item-brief.html" "input.html" "empty-leavemsgs-brief.html" "snippet.html" "my-info.html" "leavemsgs.html" "./" "message-item.html" "../" "input.html~" "leavemsg-item-detailed.html" "leavemsg-read-detail.html" "dashboard.html" "leavemsg-item.html" "leavemsgs-detailed.html" "leavemsg-show.html" "empty-leavemsgs.html" "chat-wnd.html" "update.html" "new_input.html" "user-item.html" "change-password.html" "CRM.html" "redirect.html" "guest-item.html" "face.html")
+
+ ("/home/young/workspace/node.js/chat/public/js/chat/" (20837 14012 103220 933000) "all.1.6.3.1.js" "app.js" "all.js" "main.js" "all.1.6.3.js" "app.js~" "./" "router.js" "../" "all.1.6.2.3.js" "milan_formart_json.js" "all.1.6.js" "all.1.6.2.js" "template/" ".directory" "all.1.6.2.2.js" "all.1.6.1.js" "view/" "milan_snippet.js" "collection/" "model/")
+
+ ("/home/young/workspace/node.js/chat/public/css/" (20836 54315 919640 159000) "style.css" "zTreeStyle.css" "chat.mobile.1.6.1.css" "bootstrap/" "jquery.jqplot.min.css" "bootstrap-notify/" "font-awesome.min.css" "./" "select2-spinner.gif" "unit.css" "iscroll.1.5.2.css" "scrollbar.css" "img/" "select2.png" "../" "iscroll.1.5.1.css" "nouislider.css" "jquery-ui.css" "user/" "chat.mobile.css" "select2.css" "chat.1.6.2.css" "chat.css" "homepage.css" "jquery.mobile-1.2.0.min.css" "chat.mobile.1.5.1.css" "images/" "unit.old.css" "homepage_.css" ".directory" "bootstrap-editable.css" "tmp/" "productIndex.css")
+
+ ("/home/young/workspace/node.js/statistic/app/" (20834 13097 780132 552000) "./" "fix.js" "../" "socket.js" "temp/" "api.js")
+
+ ("/home/young/workspace/node.js/chat/views/superadmin/" (20783 12920 351553 948000) "superadmin.jade" "./" "../" "superadmin.jade~")
+
+ ("/home/young/workspace/node.js/chat/views/" (20836 50368 655578 716000) "chat.html" "info.ejs" "mobile/" "./" "header.jade" "superadmin/" "../" "agent/" "error.jade" "chat.mobile.jade" "user/" "chat.mobile_old.jade" "index.jade" "chat.mobile_iscroll.jade" "noIE.jade" "layout.jade" "head.jade" "unit/" "homepage/" "chat/" "info.jade" "chat.jade")
+
+ ("/home/young/workspace/node.js/chat/app/" (20836 50368 215578 710000) "upload.js" "./" "chat-client.js" "fix.js" "../" "unit.js" "error.js" "homepage.js" "user.js" "superadmin.js" "temp/" ".directory" "agent.js" "chat-server.js")
+
+ ("/home/young/workspace/node.js/chat/views/unit/" (20834 32515 942988 122000) "admin.jade" "./" "../" "homepage/" "admin_old.jade" "suggest-email.ejs" "suggest-email.html")
+
+ ("/usr/" (20768 56882 866609 233000) "include/" "sbin/" "local/" "../" "lib/" "games/" "lib32/" "share/" "./" "src/" "bin/")
+
+ ("/usr/local/" (20820 64597 880777 608000) "man/" "include/" "etc/" "sbin/" "var/" "../" "lib/" "games/" "libexec/" "share/" "./" "src/" "bin/")
+
+ ("/usr/local/share/" (20820 64577 488778 210000) "man/" "ca-certificates/" "../" "applications/" "icons/" "info/" "sgml/" "xml/" "./" "fonts/" "emacs/")
+
+ ("/usr/local/share/info/" (20820 64577 360778 214000) "woman.info.gz" "speedbar.info.gz" "emacs-gnutls.info.gz" "widget.info.gz" "eudc.info.gz" "sasl.info.gz" "srecode.info.gz" "viper.info.gz" "ediff.info.gz" "ada-mode.info.gz" "autotype.info.gz" "pcl-cvs.info.gz" "cl.info.gz" "wisent.info.gz" "url.info.gz" "dbus.info.gz" "eshell.info.gz" "eieio.info.gz" "org.info.gz" "mairix-el.info.gz" "../" "forms.info.gz" "reftex.info.gz" "tramp.info.gz" "dir" "semantic.info.gz" "newsticker.info.gz" "bovine.info.gz" "message.info.gz" "ccmode.info.gz" "eintr.info.gz" "ses.info.gz" "elisp.info.gz" "rcirc.info.gz" "mh-e.info.gz" "htmlfontify.info.gz" "dired-x.info.gz" "edt.info.gz" "sc.info.gz" "emacs-mime.info.gz" "ede.info.gz" "pgg.info.gz" "gnus.info.gz" "info.info.gz" "./" "auth.info.gz" "efaq.info.gz" "emacs.info.gz" "calc.info.gz" "flymake.info.gz" "nxml-mode.info.gz" "ert.info.gz" "sieve.info.gz" "ebrowse.info.gz" "vip.info.gz" "erc.info.gz" "epa.info.gz" "smtpmail.info.gz" "idlwave.info.gz" "remember.info.gz")
+
+ ("/home/young/workspace/node.js/statistic/" (20834 8032 800265 320000) "doc/" "statistic.sublime-project" "main.js" "./" "conf.js" "statistic.sublime-workspace" "../" "statistic.js" ".gitignore" "ls2js.js" "lib/" "app/" ".directory" ".git/" "tmp/" "npm-debug.log" "model/")
+
+ ("/home/young/workspace/node.js/statistic/tmp/" (20833 9933 320729 560000) "./" "../" "conf.ls" "main.ls")
+
+ ("/home/young/workspace/node.js/chat/views/homepage/" (20832 17018 797671 771000) "mobile.ejs" "./" "index__.jade" "index_.jade" "../" "index.jade" "about.ejs" "index.ejs")
+
+ ("/home/young/workspace/node.js/chat/" (20833 13878 212613 2000) "chat.sublime-workspace" "app.js" "chat.sublime-project" "main.js" "mongod.sh" "./" "conf.js" "ucloud.sh" "chat.org" "r.js" "../" "docs/" "build.unit.sh" ".gitignore" "ls2js.js" "public/" "Gruntfile.js" "test/" "app.coffee" "chat.js" "lib/" "build.mobile.sh" "package.json" "chat.build.js" "mongo/" "tool/" "app/" ".directory" ".git/" "build.chat.sh" "views/" "sendmail.js" "tmp/" "unit.build.js" "grunt.js" "model/")
+
+ ("/home/young/workspace/node.js/chat/lib/" (20833 9018 412756 593000) "token-storage_.js" "searchEngine.js" "const.js" "token-storage.js" "paginate.js" "./" "timer.js" "../" "statistic.js" "middleware.js" ".directory" "searchEngineSet.js" "tmp/" "helper.js")
+
+ ("/home/young/workspace/node.js/statistic/model/" (20833 13480 796624 745000) "./" "cookie.js" "../" "schema.js" "index.js" "visit.js" "tmp/")
+
+ ("/home/young/.emacs.d/elpa/js2-mode-20130404.1516/" (20833 7124 188812 561000) "js2-imenu-extras.el" "js2-mode-pkg.elc" "./" "../" "js2-mode-pkg.el" "js2-imenu-extras.elc" "js2-mode.el" "js2-mode.elc" "js2-mode-autoloads.el")
+
+ ("/home/young/workspace/node.js/" (20833 11938 220670 322000) "statistic_test/" "./" "../" "redis-viewer/" "chat/" "node_modules/" "test/" "statistic/")
+
+ ("/home/young/workspace/node.js/statistic/app/temp/" (20833 9946 404729 174000) "index.ls" "redis.ls" "redis.js" "socket.ls" "fix.ls" "./" "api.ls" "../" "index.js")
+
+ ("/home/young/workspace/node.js/statistic/lib/" (20833 9979 72728 211000) "paginate.js" "./" "../" "statistic.js" "prefix.js" ".directory" "searchEngineSet.js" "statistic-redis.js" "tmp/" "helper.js")
+
+ ("/home/young/workspace/node.js/test/" (20827 58040 628144 917000) "test.json" "regex.ls" "restler.ls" "reg.ls" "./" "mongo.js" "import.json" "../" "restler.js" "ip.ls" "mongo-port.ls" "ua.js" "ramdom.js")
+
+ ("/home/young/.emacs.d/elpa/coffee-mode-20121013.856/" (20833 4221 64898 335000) "coffee-mode-pkg.el" "coffee-mode-pkg.elc" "./" "coffee-mode-autoloads.el" "../" "coffee-mode.el")
+
+ ("/home/young/workspace/node.js/chat/public/js/unit/view/" (20832 17021 989671 687000) "empty-notifications.js" "navbar.js" "visits.js" "notification-item.js" "invitesetting.js" "notification.js" "stat.js" "suggest.js" "./" "leavemessage.js" "leavemessage-item.js" "../" "visit-item.js" "notification-collection.js" "modal.js" "pagination.js" "leavemessage-collection.js" "history-item.js" "chat-history.js" "snippet.js" "getjs_.coffee" "statistics.js" "unit_welcome.js" "client-item.js" "update.js" "clients.js" "getjs.js" "empty-leavemessage.js")
+
+ ("/home/young/workspace/node.js/chat/tmp/" (20810 46845 359615 933000) "left.js.重命名" "./" "../")
+
+ ("/home/young/workspace/node.js/chat/model/" (20828 63282 185344 288000) "guest.ls" "leavemsg.ls" "unit.ls" "./" "msg.ls" "schema.ls" "notification.ls" "../" "user.ls" "userdata.ls")
+
+ ("/home/young/.emacs.d/elpa/starter-kit-2.0.3/" (20821 4515 640616 468000) "starter-kit.el" "starter-kit-pkg.el" "starter-kit-misc.elc" "starter-kit-defuns.elc" "starter-kit.elc" "./" "../" "starter-kit-pkg.elc" "starter-kit-autoloads.el~" "starter-kit-autoloads.el" "starter-kit-defuns.el" "starter-kit-misc.el")
+
+ ("/home/young/.emacs.d/elpa/fixmee-20121205.1450/" (20827 63922 315971 131000) "fixmee-pkg.elc" "fixmee-autoloads.el" "./" "fixmee-pkg.el" "../" "fixmee.el")
+
+ ("/home/young/workspace/node.js/chat/docs/" (20827 57438 472162 708000) "image3.jpg" "loading_circle.gif" "p028 bug" "2个系列的在线咨询动态图标.zip" "signin.psd" "linkIcon.png" "phoneIndex.html" "iconStyle.zip" "官方网站首页副本.jpg" "mobileCLogo.png" "./" "feature4.png" "iphone.png" "pTop.png" "mobile.html" "fuckHospital.png" "chat-service.psd.7z" "index/" "IMG_0045(标注).PNG" "1112.jpg" "chat.org" "2013-01-10mobileChat产品首页/" "productIndex.html" "indicator_medium.gif" "../" "email.html" "feature1.png" "feature3.png" "iconStyle/" "index.html" "js/" "pay2.png" "leave_msg.jpg" "invite/" "stateicon.png" "productIndex2.html" "mobileIM副本.jpg" "bgbgbgbalck.gif" "mobileChat/" "about.ejs" "face.png" "flowStep.png" "feature2.png" "image2.jpg" "产品手册资料.docx" "image.jpg" "index.ejs" "2个系列的在线咨询动态图标/" "mobile.html.重命名" "logoEmail.png" "mryy1.png" "button/" "homepage/" "phoneIndex_20130122.html" "def_user_icon.jpg" "MobileChat软文.docx" "销售管理政策.docx" "insertface (2).png" "客户后台管理1.jpg" "search engine" "新闻稿.docx" "images/" "_iconStyle.zip" "chatmain副本.jpg" ".directory" "mobilechat新闻稿.docx" "pr_chat.png" "qrcode_index.png" "uploadIcon.png" "productIndex.css" "海波提的修改意见.txt" "pay.png" "aboutUs.html.重命名" "v5kf/" ".~lock.销售管理政策.docx#" "style/")
+
+ ("/home/young/.emacs.d/elpa/nyan-mode-20120710.1922/" (20824 64271 471116 549000) "nyan-mode-autoloads.el" "./" "img/" "../" "nyan-mode.el" "nyan-mode.elc" "nyan-mode-pkg.elc" "nyan-mode-pkg.el")
+
+ ("/home/young/workspace/node.js/statistic/doc/" (20826 22888 834684 690000) "cookie.md" "qrcode.png" "./" "model.txt" "../" "cookie.html")
 
  ("/home/young/.emacs.d/elpa/powerline-20130328.2105/" (20826 21050 310680 592000) "powerline-pkg.elc" "./" "powerline-pkg.el" "powerline.elc" "powerline-autoloads.el" "../" "powerline.el")
 
- ("/home/young/.emacs.d/elpa/" (20826 21049 694680 591000) "magit-1.1.1/" "ucs-utils-20121205.1457/" "mongo-readme.txt" "undo-tree-readme.txt" "popup-0.5/" "zencoding-mode-0.5.1/" "paredit-22/" "blank-mode-20080905.553/" "tabbar-20110824.1439/" "rainbow-mode-0.7/" "multiple-cursors-readme.txt" "tabbar-ruler-20130327.1141/" "nurumacs-20130316.116/" "molokai-theme-20120503.1929/" "zen-and-art-theme-1.0.1/" "unicode-whitespace-20121205.1458/" "flymake-jslint-20120319.1604/" "google-contacts-readme.txt" "http-twiddle-20121117.1436/" "interval-tree-readme.txt" "expand-region-20130302.1954/" "ac-js2-20130320.1728/" "web-0.1.2/" "smart-operator-20051013.1756/" "./" "highlight-parentheses-20130323.4/" "pcache-20120408.1206/" "starter-kit-bindings-2.0.2/" "s-20130320.1524/" "helm-git-readme.txt" "archives/" "helm-c-yasnippet-readme.txt" "helm-projectile-20130131.2338/" "skewer-mode-20130324.8/" "rainbow-delimiters-20120428.45/" "sws-mode-20120730.2122/" "info+-readme.txt" "enotify-readme.txt" "dash-20130311.1525/" "yasnippet-20120822.52/" "google-this-readme.txt" "helm-gtags-readme.txt" "undo-tree-0.5.3/" "hl-line+-readme.txt" "impatient-mode-20130127.1656/" "eredis-20120808.2207/" "ac-js2-readme.txt" "subatomic-theme-20130226.2229/" "find-file-in-project-3.2/" "../" "ido-ubiquitous-1.2/" "list-utils-20121205.1456/" "evil-20120912.815/" "fold-dwim-20120926.1236/" "highlight-symbol-1.1/" "yascroll-readme.txt" "pastels-on-dark-theme-0.3/" "color-theme-solarized-20120301/" "google-translate-20121018.923/" "hl-line+-20130117.1613/" "helm-20130328.1657/" "smart-mode-line-20121129.1435/" "js2-refactor-20130314.1639/" "inf-mongo-20130305.127/" "htmlize-20130207.2102/" "ace-jump-mode-1.0/" "whole-line-or-region-1.3.1/" "color-theme-sanityinc-solarized-20130328.2017/" "smart-forward-20130205.1352/" "idle-highlight-mode-1.1.2/" "stylus-mode-20120730.1950/" "multi-web-mode-20130205.2044/" "nyan-mode-20120710.1922/" "mongo-20120826.14/" "jade-mode-20120903.757/" "image-dired+-readme.txt" "fold-this-readme.txt" "tango-2-theme-20120312.1325/" "emacs-setup-readme.txt" "highlight-indentation-20130106.41/" "google-contacts-20130304.1402/" "less-css-mode-0.6/" "coffee-mode-20121013.856/" "color-theme-6.5.5/" "persistent-soft-20121205.1456/" "auto-complete-20120917.1341/" "typing-readme.txt" "projectile-20130228.245/" "main-line-readme.txt" "airplay-readme.txt" "google-weather-readme.txt" "font-utils-readme.txt" "minimap-20110427.1123/" "project-1.0/" "lua-mode-20110428/" "yasnippet-20130218.2229/" "smex-1.1.3/" "multiple-cursors-20130328.1941/" "clippy-readme.txt" "starter-kit-2.0.3/" "js2-mode-20130307.2012/" "autopair-0.3/" "unicode-whitespace-readme.txt" "powerline-20130328.2105/" "simple-httpd-20121224.1121/")
-
- ("/home/young/.emacs.d/" (20826 21381 450681 331000) "projectile-bookmarks.eld" ".smex-items" "url/" "session.10453100000136452876700000016690024" "main-line.el" "./" "session.1092f67c92a755ac14134771335943445000000020720038" "lua-mode (复件).el" ".mc-lists.el" "session.10b55aa1946bc7025013468938635007900000017470038" "../" "auto-complete-yasnippet.el" "web-mode.el" ".gitignore" "eshell/" "backups/" "nxhtml/" "ac-comphist.dat" ".emacs" "tramp" "themes/" "elpa/" "var/" "session.10a4788c01b248b321134732627974562400000021050038" "livescript-mode.el" "session.108de19a528b6c10d5134629835885416800000019020042" "places" ".directory" ".git/" "auto-save-list/")
-
- ("/home/young/workspace/node.js/chat/app/" (20825 24944 250957 216000) "chat-server.ls" "chat-client.ls" "upload.ls" "homepage.ls" "unit.ls" "fix.ls" "./" "../" "user.ls" "error.ls" "temp/" "superadmin.ls" "agent.ls")
-
  ("/home/young/workspace/node.js/chat/views/unit/homepage/" (20816 11148 878872 395000) "invitor.ejs" "./" "template1.jade" "../" "button.js.ejs" "button.js (复件).ejs" "button-func.js.ejs")
-
- ("/home/young/workspace/node.js/chat/views/" (20824 58630 619339 640000) "chat.html" "info.ejs" "mobile/" "./" "header.jade" "superadmin/" "../" "agent/" "error.jade" "chat.mobile.jade" "user/" "chat.mobile_old.jade" "index.jade" "chat.mobile_iscroll.jade" "noIE.jade" "layout.jade" "head.jade" "unit/" "homepage/" "chat/" "info.jade" "chat.jade")
-
- ("/home/young/workspace/node.js/statistic/doc/" (20825 12311 387456 836000) "qrcode.png" "./" "model.txt" "../")
-
- ("/home/young/workspace/node.js/chat/model/" (20812 11063 373733 743000) "guest.ls" "leavemsg.ls" "unit.ls" "./" "msg.ls" "schema.ls" "notification.ls" "../" "user.ls" "userdata.ls")
 
  ("/home/young/.emacs.d/elpa/web-0.1.2/" (20821 4515 644616 467000) "./" "web-pkg.elc" "web.el" "../" "web-pkg.el" "web-autoloads.el" "web-test.el")
 
@@ -73,23 +166,7 @@
 
  ("/home/young/download/" (20820 62813 472830 331000) "emacs-24.3.tar.gz" "Sublime Text 2/" "ua-parser/" "WineQQ2012-20121221-Longene.deb" "google-chrome-stable_current_amd64.deb" "./" "online.wav" "OoLegeRobot017.apk" "../" "js/" "button.js.ejs" "kde/" "css/" "pizzicato.ogg" "pizzicato.rar" "emacs-24.3/")
 
- ("/home/young/workspace/node.js/chat/public/js/chat/" (20824 63874 915132 231000) "app.js" "all.js" "main.js" "app.js~" "./" "router.js" "../" "all.1.6.2.3.js" "milan_formart_json.js" "all.1.6.js" "all.1.6.2.js" "template/" ".directory" "all.1.6.2.2.js" "all.1.6.1.js" "view/" "milan_snippet.js" "collection/" "model/")
-
- ("/home/young/workspace/node.js/chat/public/js/" (20824 58630 435339 645000) "chat.mobile.old.js" ".cache/" "mobile/" "mixin/" "bootstrap/" "jqplot/" "aloha/" "jq.mobi.min.js" "socket.io.js" "./" "chat.mobile.js" "iscroll.js" "superadmin/" "chat.mobile.js~" "../" "chat.mobile.min.1.6.2.2.js" "unit_old/" "jq.ui.min.js" "chat.mobile.min.1.6.js" "iscroll.min.js" "config/" "chat.mobile.min.js" "homepage.js" "unit/" "chat/" "lib/" "chat.mobile.iscroll.js" ".directory" "tmp/" "chat.mobile.min.1.6.2.js" "jq.ui.js" "facedata.js")
-
- ("/home/young/workspace/node.js/chat/public/" (20821 28896 279413 187000) "favicon.ico" "image/" "upload/" "./" "../" "js/" "css/" "audio/" "apple-touch-icon.png")
-
- ("/home/young/workspace/node.js/chat/" (20824 58662 215338 390000) "chat.sublime-workspace" "app.js" "chat.sublime-project" "mongod.sh" "./" "ucloud.sh" "chat.org" "r.js" "../" "conf.ls" "docs/" "build.unit.sh" ".gitignore" "public/" "Gruntfile.js" "test/" "app.coffee" "chat.js" "lib/" "build.mobile.sh" "package.json" "chat.build.js" "mongo/" "tool/" "main.ls" "app/" ".directory" ".git/" "build.chat.sh" "views/" "sendmail.js" "tmp/" "unit.build.js" "grunt.js" "model/")
-
- ("/home/young/workspace/node.js/statistic/app/" (20824 61579 779223 2000) "socket.ls" "fix.ls" "./" "api.ls" "../" "temp/")
-
- ("/home/young/workspace/node.js/statistic/model/" (20792 3331 703287 484000) "cookie.ls" "index.ls" "visit.ls" "./" "schema.ls" "../")
-
- ("/home/young/workspace/node.js/statistic/" (20821 18657 543715 707000) "doc/" "statistic.sublime-project" "./" "statistic.sublime-workspace" "../" "conf.ls" "statistic.js" ".gitignore" "lib/" "main.ls" "app/" ".git/" "model/")
-
  ("/home/young/.emacs.d/elpa/helm-20130328.1657/" (20821 14044 463852 8000) "helm-eval.elc" "helm-w3m.el" "helm-plugin.elc" "helm-bookmark.elc" "helm-elscreen.el" "helm-yaoddmuse.elc" "helm-ring.elc" "helm-misc.elc" "helm-firefox.elc" "helm-mode.elc" "helm-font.elc" "helm-external.el" "helm-utils.el" "helm-org.elc" "helm-color.elc" "helm-apt.el" "helm-tags.el" "helm-org.el" "helm-call-tree.elc" "helm-bookmark.el" "helm-adaptative.elc" "helm-eval.el" "helm-help.el" "helm-pkg.el" "helm-emms.elc" "helm-bbdb.elc" "./" "helm-buffers.elc" "helm-emms.el" "helm-firefox.el" "helm-files.el" "helm-font.el" "helm-aliases.elc" "helm-match-plugin.elc" "helm-adaptative.el" "helm-semantic.el" "helm-yaoddmuse.el" "helm-man.el" "helm-config.el" "helm-sys.el" "helm-regexp.elc" "helm-grep.elc" "../" "helm-semantic.elc" "helm-locate.elc" "helm-info.el" "helm-man.elc" "helm-call-tree.el" "helm-net.elc" "helm-utils.elc" "helm-sys.elc" "helm-tags.elc" "helm.el" "helm.elc" "helm-grep.el" "helm-gentoo.elc" "helm-imenu.elc" "helm-aliases.el" "helm-apt.elc" "helm-command.elc" "helm-misc.el" "helm-locate.el" "helm-help.elc" "helm-bbdb.el" "helm-w3m.elc" "helm-pkg.elc" "helm-gentoo.el" "helm-autoloads.el" "helm-buffers.el" "helm-files.elc" "helm-imenu.el" "helm-ring.el" "helm-command.el" "helm-net.el" "helm-mode.el" "helm-elisp.elc" "helm-elisp.el" "helm-color.el" "helm-elscreen.elc" "helm-bmkext.elc" "helm-match-plugin.el" "helm-plugin.el" "helm-bmkext.el" "helm-eshell.elc" "helm-info.elc" "helm-config.elc" "helm-regexp.el" "helm-external.elc" "helm-eshell.el")
-
- ("/home/young/workspace/node.js/" (20819 57087 4598 260000) "statistic_test/" "./" "../" "redis-viewer/" "chat/" "node_modules/" "test/" "statistic/")
 
  ("/home/" (20768 38917 227975 884000) "lost+found/" "./" "../" "young/" ".directory")
 

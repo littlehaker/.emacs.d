@@ -1,6 +1,16 @@
-;; -*- emacs-lisp -*- <12/09/11 12:16:52 /home/young/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <13/04/07 18:05:55 /home/young/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["scpc" nil "instance.content" nil]
-  nil))
+((["sudo" "root" "localhost" nil nil]
+  ("uname" "Linux 3.5.0-17-generic")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 0)))

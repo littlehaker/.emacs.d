@@ -78,7 +78,7 @@
 
 (defun esk-add-watchwords ()
   (font-lock-add-keywords
-   nil '(("\\<\\(FIX\\|TODO\\|FIXME\\|HACK\\|REFACTOR\\|NOCOMMIT\\)"
+   nil '(("\\<\\(FIX\\(ME\\)?\\|TODO\\|HACK\\|REFACTOR\\|NOCOMMIT\\)"
           1 font-lock-warning-face t))))
 
 (add-hook 'prog-mode-hook 'esk-local-column-number-mode)
@@ -87,6 +87,7 @@
 (add-hook 'prog-mode-hook 'esk-turn-on-save-place-mode)
 (add-hook 'prog-mode-hook 'esk-pretty-lambdas)
 (add-hook 'prog-mode-hook 'esk-add-watchwords)
+(add-hook 'coffee-mode-hook 'esk-add-watchwords)
 (add-hook 'prog-mode-hook 'esk-turn-on-idle-highlight-mode)
 
 (defun esk-prog-mode-hook ()

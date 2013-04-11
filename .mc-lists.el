@@ -4,8 +4,10 @@
 (setq mc/cmds-to-run-for-all
       '(
         kill-region
+        whole-line-or-region-kill-region
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        sp--self-insert-command
         ))

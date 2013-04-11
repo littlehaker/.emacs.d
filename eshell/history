@@ -37,3 +37,38 @@ cd download/
 ls
 ls
 exit
+ls
+exit
+sudo apt-get install markdown
+exit
+exit
+ls
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+exit
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+livescript -h
+../node_modules/LiveScript/bin/livescript -h
+../node_modules/LiveScript/bin/livescript -h
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+cd ../statistic_test/
+cd ..
+cd statistic/
+ls
+node ls2js.js 
+node ls2js.js 
+node ls2js.js 
+exit
+ls
+exit

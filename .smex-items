@@ -16,7 +16,7 @@
  (package-install . 1)
  (package-list-packages . 9)
  (package-list-packages-no-fetch . 32)
- (eval-current-buffer . 46)
+ (eval-current-buffer . 47)
  (enable-theme . 1)
  (lua-mode . 1)
  (color-theme-parus . 1)
